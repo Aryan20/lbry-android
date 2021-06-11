@@ -226,7 +226,6 @@ import lombok.SneakyThrows;
 import okhttp3.OkHttpClient;
 
 import static android.os.Build.VERSION_CODES.M;
-import static android.os.Build.VERSION_CODES.P;
 
 public class MainActivity extends AppCompatActivity implements SdkStatusListener,
         SharedPreferences.OnSharedPreferenceChangeListener,
@@ -608,7 +607,7 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
         });
 
         notificationsSwipeContainer = findViewById(R.id.notifications_list_swipe_container);
-        notificationsSwipeContainer.setColorSchemeResources(R.color.nextLbryGreen);
+        notificationsSwipeContainer.setColorSchemeResources(R.color.nextAryanPurple);
         notificationsSwipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -2505,7 +2504,7 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
     public void showNotifications() {
         clearWunderbarFocus(findViewById(R.id.wunderbar));
         findViewById(R.id.notifications_container).setVisibility(View.VISIBLE);
-        ((ImageView) findViewById(R.id.notifications_toggle_icon)).setColorFilter(ContextCompat.getColor(this, R.color.lbryGreen));
+        ((ImageView) findViewById(R.id.notifications_toggle_icon)).setColorFilter(ContextCompat.getColor(this, R.color.AryanPurple));
         if (remoteNotifcationsLastLoaded == null ||
                 (System.currentTimeMillis() - remoteNotifcationsLastLoaded.getTime() > REMOTE_NOTIFICATION_REFRESH_TTL)) {
             loadRemoteNotifications(true);
@@ -3232,7 +3231,7 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
         PendingIntent stopPendingIntent = PendingIntent.getBroadcast(this, 0, stopIntent, 0);
 
         String serviceDescription = "The LBRY service is running in the background.";
-        Notification notification = builder.setColor(ContextCompat.getColor(this, R.color.lbryGreen))
+        Notification notification = builder.setColor(ContextCompat.getColor(this, R.color.AryanPurple))
                 .setContentIntent(pendingIntent)
                 .setContentText(serviceDescription)
                 .setGroup(LbrynetService.GROUP_SERVICE)

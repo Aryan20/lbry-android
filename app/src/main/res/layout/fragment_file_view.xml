@@ -627,7 +627,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/inter"
-                                android:textColor="@color/lbryGreen"
+                                android:textColor="@color/button"
                                 android:textFontWeight="600"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -720,7 +720,7 @@
                         android:layout_marginEnd="16dp"
                         android:autoLink="all"
                         android:fontFamily="@font/inter"
-                        android:textColorLink="@color/lbryGreen"
+                        android:textColorLink="@color/button"
                         android:textFontWeight="300"
                         android:textSize="12sp" />
 

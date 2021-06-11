@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:elevation="4dp"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="16dp">
+    android:layout_marginTop="16dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="@android:color/transparent">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dark_layout"
+        android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/inter"
-                android:textStyle="bold"
                 android:text="@string/recent_transactions"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/wallet_link_view_all"
@@ -33,55 +38,57 @@
                 android:clickable="true"
                 android:fontFamily="@font/inter"
                 android:text="@string/view_all"
-                android:textColor="@color/lbryGreen"
-                android:textSize="14sp"
-                android:textFontWeight="300"/>
+                android:textColor="@color/button"
+                android:textFontWeight="300"
+                android:textSize="14sp" />
         </RelativeLayout>
 
         <View
-            android:background="@color/lightDivider"
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:layout_marginTop="16dp" />
-        
+            android:layout_marginTop="16dp"
+            android:background="@color/lightDivider" />
+
         <RelativeLayout
             android:id="@+id/wallet_loading_recent_container"
-            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:visibility="gone">
+
             <LinearLayout
-                android:layout_centerInParent="true"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
                 <ProgressBar
                     android:id="@+id/wallet_loading_recent_progress"
                     android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    />
+                    android:layout_height="20dp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:text="@string/loading_transactions"
                     android:fontFamily="@font/inter"
-                    android:textSize="14sp"
-                    android:textFontWeight="300" />
+                    android:text="@string/loading_transactions"
+                    android:textFontWeight="300"
+                    android:textSize="14sp" />
             </LinearLayout>
         </RelativeLayout>
 
         <TextView
-            android:visibility="gone"
             android:id="@+id/wallet_no_recent_transactions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="@string/no_recent_transactions"
             android:fontFamily="@font/inter"
-            android:textSize="14sp"
+            android:text="@string/no_recent_transactions"
             android:textAlignment="center"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="14sp"
+            android:visibility="gone" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/wallet_recent_transactions_list"

@@ -145,7 +145,7 @@ public class LbrynetMessagingService extends FirebaseMessagingService {
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder =
                 new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-                        .setColor(ContextCompat.getColor(this, R.color.lbryGreen))
+                        .setColor(ContextCompat.getColor(this, R.color.AryanPurple))
                         .setSmallIcon(R.drawable.ic_lbry)
                         .setContentTitle(title)
                         .setContentText(messageBody)

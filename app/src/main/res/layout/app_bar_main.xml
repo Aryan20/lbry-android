@@ -29,21 +29,27 @@
                 android:focusableInTouchMode="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <EditText
                     android:id="@+id/wunderbar"
-                    android:background="@android:color/transparent"
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:layout_marginEnd="13dp"
+                    android:layout_toStartOf="@+id/wunderbar_notifications"
+                    android:background="@drawable/bg_search"
                     android:drawableStart="@drawable/ic_search"
                     android:drawablePadding="8dp"
                     android:drawableTint="@color/actionBarForeground"
                     android:fontFamily="@font/inter"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="24dp"
                     android:hint="@string/uri_placeholder"
                     android:imeOptions="actionGo"
                     android:inputType="textNoSuggestions"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
                     android:paddingEnd="36dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
                     android:selectAllOnFocus="true"
                     android:singleLine="true"
                     android:textFontWeight="300"
@@ -99,6 +105,7 @@
                 </RelativeLayout>
             </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
@@ -106,7 +113,7 @@
     <RelativeLayout
         android:id="@+id/splash_view"
         android:visibility="gone"
-        android:background="@color/lbryGreen"
+        android:background="@color/AryanPurple"
         android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -117,13 +124,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true">
+
             <TextView
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name"
+                android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/inter"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
                 android:textSize="56sp"
                 android:textStyle="bold" />
             <ProgressBar

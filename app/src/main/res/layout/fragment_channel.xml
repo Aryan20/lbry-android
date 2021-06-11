@@ -97,7 +97,8 @@
                 android:layout_alignParentBottom="true"
                 android:paddingStart="110dp"
                 app:tabGravity="fill"
-                app:tabMode="scrollable"/>
+                app:tabMode="scrollable"
+                app:tabTextColor="@color/white" />
             <RelativeLayout
                 android:id="@+id/channel_view_icon_container"
                 android:layout_width="80dp"

@@ -1,47 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="2dp"
+    android:background="@drawable/bg_selected_item"
     android:clickable="true"
     android:focusable="true"
-    android:padding="8dp"
     android:foreground="?attr/selectableItemBackground"
-    android:background="@drawable/bg_selected_item"
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:layout_marginEnd="2dp">
+    android:padding="8dp">
+
     <RelativeLayout
         android:id="@+id/channel_filter_media_container"
-        android:layout_width="80dp"
-        android:layout_height="80dp">
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
         <RelativeLayout
             android:id="@+id/channel_filter_no_thumbnail"
-            android:background="@drawable/bg_channel_icon"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_channel_icon">
+
             <TextView
                 android:id="@+id/channel_filter_alpha_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/inter"
-                android:textSize="48sp"
                 android:textColor="@color/white"
-                android:textFontWeight="300" />
+                android:textFontWeight="300"
+                android:textSize="48sp" />
         </RelativeLayout>
+
         <RelativeLayout
             android:id="@+id/channel_filter_all_container"
-            android:background="@drawable/bg_all_icon"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_all_icon">
+
             <TextView
                 android:id="@+id/channel_filter_all"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/inter"
+                android:text="@string/all"
                 android:textAllCaps="true"
-                android:textFontWeight="300"
-                android:text="@string/all" />
+                android:textFontWeight="300" />
         </RelativeLayout>
+
         <ImageView
             android:id="@+id/channel_filter_thumbnail"
             android:layout_width="match_parent"
@@ -54,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/channel_filter_media_container"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
         android:singleLine="true"
-        android:textSize="12sp"
-        android:layout_marginTop="4dp" />
+        android:textSize="12sp" />
 </RelativeLayout>

@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="@android:color/transparent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_dark_layout"
         android:orientation="vertical"
         android:padding="16dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:fontFamily="@font/inter"
-            android:textStyle="bold"
             android:text="@string/invite_by_email"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter"
             android:text="@string/invite_someone"
-            android:textSize="14sp"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="14sp" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/invites_email_input_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/invites_email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/inter"
                 android:hint="@string/invite_email_placeholder"
-                android:textSize="14sp"
-                android:textFontWeight="300" />
+                android:textFontWeight="300"
+                android:textSize="14sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp">
+
             <ProgressBar
                 android:id="@+id/invites_loading_invite_by_email_progress"
                 android:layout_width="20dp"
@@ -50,6 +59,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_toStartOf="@id/invites_email_button"
                 android:visibility="gone" />
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/invites_email_button"
                 android:layout_width="wrap_content"

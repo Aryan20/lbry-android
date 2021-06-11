@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pageBackground">
@@ -40,7 +41,7 @@
 
     <RelativeLayout
         android:id="@+id/wallet_account_recommended_container"
-        android:background="@color/lbryGreen"
+        android:background="@color/AryanPurple"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp">
@@ -95,12 +96,13 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/wallet_sign_up_button"
-                android:layout_alignParentEnd="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/inter"
-                android:text="@string/sign_up" />
+                android:text="@string/sign_up"
+                app:backgroundTint="@color/button" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

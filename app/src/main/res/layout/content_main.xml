@@ -91,7 +91,7 @@
         android:id="@+id/global_sdk_initializing_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/lbryGreen"
+        android:background="@color/AryanPurple"
         android:elevation="12dp"
         android:padding="8dp"
         android:visibility="gone"

@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:id="@+id/sign_in_button_container"
-        android:background="@color/lbryGreen"
+        android:background="@color/AryanPurple"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="@color/lbryGreen"
+            android:background="@color/AryanPurple"
             android:paddingTop="16dp"
             android:paddingBottom="16dp">
             <TextView
@@ -38,15 +38,17 @@
 
     <RelativeLayout
         android:id="@+id/signed_in_email_container"
-        android:background="@color/drawerBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/drawerBackground"
         android:visibility="gone">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="16dp"
             android:paddingBottom="16dp">
+
             <TextView
                 android:id="@+id/signed_in_email"
                 android:layout_width="wrap_content"
@@ -56,16 +58,16 @@
                 android:fontFamily="@font/inter"
                 android:gravity="center"
                 android:singleLine="true"
-                android:textSize="14sp"
                 android:textAllCaps="true"
                 android:textColor="@color/menuItemForeground"
-                android:textFontWeight="300" />
+                android:textFontWeight="300"
+                android:textSize="14sp" />
         </RelativeLayout>
     </RelativeLayout>
 
     <View
         android:id="@+id/sign_in_header_divider"
-        android:background="@color/lbryGreen"
+        android:background="@color/AryanPurple"
         android:layout_width="match_parent"
         android:layout_height="0.5dp" />
 </LinearLayout>

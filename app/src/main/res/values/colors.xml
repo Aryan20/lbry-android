@@ -5,6 +5,7 @@
     <color name="colorAccent">#38D9A9</color>
 
     <color name="pageBackground">#EFEFEF</color>
+    <color name="search">#EEFFFFFF</color>
     <color name="actionBarBackground">#FFFFFF</color>
     <color name="statusBarColor">#FFFFFF</color>
     <color name="actionBarForeground">#333333</color>
@@ -17,8 +18,8 @@
 
     <color name="publishBackground">#333333</color>
     <color name="playerControlsBackground">#33000000</color>
-    <color name="scrubberColor">@color/nextLbryGreen</color>
-    <color name="playedColor">@color/nextLbryGreen</color>
+    <color name="scrubberColor">@color/nextAryanPurple</color>
+    <color name="playedColor">@color/nextAryanPurple</color>
     <color name="bufferedColor">@color/nextLbryGreenSemiTransparent</color>
 
     <color name="darkForeground">#222222</color>
@@ -28,9 +29,11 @@
     <color name="borderTextArea">#777777</color>
     <color name="backgroundTextArea">#F1F1F1</color>
 
-    <color name="brighterLbryGreen">#40B887</color>
-    <color name="lbryGreen">#2F9176</color>
-    <color name="nextLbryGreen">#38D9A9</color>
+    <color name="brighterAryanPurple">#40B887</color>
+    <color name="text">#000000</color>
+    <color name="button">#003c4d</color>
+    <color name="AryanPurple">#2F9176</color>
+    <color name="nextAryanPurple">#38D9A9</color>
     <color name="nextLbryGreenSemiTransparent">#3338D9A9</color>
     <color name="tagGreen">#E3F6F1</color>
     <color name="tagGrape">#77F255DA</color>
@@ -49,7 +52,7 @@
     <color name="uriDescBlue">#3971DB</color>
     <color name="rewardDriverBlue">#2196f3</color>
 
-    <color name="statsVideo">@color/nextLbryGreen</color>
+    <color name="statsVideo">@color/nextAryanPurple</color>
     <color name="statsAudio">#F6A637</color>
     <color name="statsImage">#FF4A7D</color>
     <color name="statsOther">#26BCF7</color>

@@ -584,7 +584,7 @@ public class WalletFragment extends BaseFragment implements SdkStatusListener, W
                 url = String.format("%s&signature=%s", url, URLEncoder.encode(signature, StandardCharsets.UTF_8.name()));
 
                 CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder().setToolbarColor(
-                        ContextCompat.getColor(context, R.color.lbryGreen)
+                        ContextCompat.getColor(context, R.color.AryanPurple)
                 );
                 CustomTabsIntent intent = builder.build();
                 intent.launchUrl(context, Uri.parse(url));
