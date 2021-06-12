@@ -158,9 +158,11 @@
                 android:id="@+id/create_support_send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
                 android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true" />
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/inter"
+                android:textColor="@color/text" />
         </RelativeLayout>
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

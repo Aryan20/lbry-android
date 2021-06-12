@@ -337,14 +337,17 @@
                             android:layout_marginEnd="24dp"
                             android:layout_toStartOf="@+id/channel_form_save_button"
                             android:visibility="gone" />
+
                         <com.google.android.material.button.MaterialButton
                             android:id="@+id/channel_form_save_button"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_centerVertical="true"
+                            android:backgroundTint="@color/button"
                             android:fontFamily="@font/inter"
-                            android:text="@string/save" />
+                            android:text="@string/save"
+                            android:textColor="@color/text" />
                     </RelativeLayout>
                 </LinearLayout>
             </androidx.core.widget.NestedScrollView>

@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="@android:color/transparent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_dark_layout"
         android:orientation="vertical"
         android:padding="16dp">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/inter"
-                android:textStyle="bold"
                 android:text="@string/invite_link"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <ProgressBar
                 android:id="@+id/invites_loading_channels_progress"
                 android:layout_width="20dp"
@@ -28,58 +35,63 @@
                 android:layout_centerVertical="true"
                 android:visibility="gone" />
         </RelativeLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter"
             android:text="@string/share_this_link"
-            android:textSize="14sp"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="14sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/inter"
             android:text="@string/your_invite_link"
-            android:textSize="14sp"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="14sp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:background="@drawable/bg_copyable_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_toStartOf="@id/invites_copy_invite_link"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
+                android:background="@drawable/bg_copyable_text"
                 android:paddingStart="12dp"
-                android:paddingEnd="12dp">
+                android:paddingTop="8dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="8dp">
+
                 <TextView
                     android:id="@+id/invites_invite_link"
-                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:ellipsize="middle"
                     android:fontFamily="@font/inter"
-                    android:textSize="14sp"
                     android:letterSpacing="0.05"
                     android:singleLine="true"
-                    android:ellipsize="middle" />
+                    android:textSize="14sp" />
             </LinearLayout>
+
             <ImageButton
                 android:id="@+id/invites_copy_invite_link"
-                android:layout_marginStart="8dp"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
                 android:background="@null"
                 android:src="@drawable/ic_copy"
-                android:tint="@color/AryanPurple"
-                android:layout_alignParentEnd="true" />
+                android:tint="@color/AryanPurple" />
         </RelativeLayout>
 
         <TextView
@@ -88,8 +100,9 @@
             android:layout_marginTop="12dp"
             android:fontFamily="@font/inter"
             android:text="@string/customize_invite_link"
-            android:textSize="14sp"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="14sp" />
+
         <androidx.appcompat.widget.AppCompatSpinner
             android:id="@+id/invites_channel_spinner"
             android:layout_width="match_parent"

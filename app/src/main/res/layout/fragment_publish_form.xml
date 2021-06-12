@@ -572,12 +572,14 @@
                     android:layout_marginEnd="16dp"
                     android:layout_toStartOf="@id/publish_form_publish_button"
                     android:visibility="gone" />
+
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/publish_form_publish_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
+                    android:backgroundTint="@color/button"
                     android:fontFamily="@font/inter"
                     android:text="@string/publish" />
             </RelativeLayout>

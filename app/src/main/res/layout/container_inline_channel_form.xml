@@ -116,7 +116,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
+            android:backgroundTint="@color/button"
             android:fontFamily="@font/inter"
-            android:text="@string/create"/>
+            android:text="@string/create"
+            android:textColor="@color/text" />
     </RelativeLayout>
 </LinearLayout>

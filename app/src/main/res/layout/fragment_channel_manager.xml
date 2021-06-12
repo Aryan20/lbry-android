@@ -53,13 +53,16 @@
                 android:textAlignment="center"
                 android:textSize="16sp"
                 android:textFontWeight="300"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/channel_manager_create_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
+                android:backgroundTint="@color/button"
                 android:fontFamily="@font/inter"
-                android:text="@string/create_a_channel"  />
+                android:text="@string/create_a_channel"
+                android:textColor="@color/text" />
         </LinearLayout>
     </RelativeLayout>
     <include layout="@layout/container_sdk_initializing" />
@@ -74,5 +77,5 @@
         android:layout_marginBottom="16dp"
         android:src="@drawable/ic_add"
         android:visibility="gone"
-        app:backgroundTint="@color/AryanPurple" />
+        app:backgroundTint="@color/button" />
 </RelativeLayout>

@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="?attr/selectableItemBackground"
-    android:clickable="true"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
     android:layout_marginEnd="8dp"
-    android:layout_marginBottom="8dp">
+    android:layout_marginBottom="8dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardCornerRadius="15dp">
+
     <LinearLayout
         android:id="@+id/notification_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <RelativeLayout
-            android:layout_marginStart="16dp"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_gravity="center_vertical">
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp">
+
             <io.lbry.browser.ui.controls.SolidIconView
                 android:id="@+id/notification_icon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:textSize="24dp" />
+
             <ImageView
                 android:id="@+id/notification_author_thumbnail"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:visibility="invisible" />
+
             <RelativeLayout
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/bg_channel_overlay_icon"
                 android:id="@+id/notification_selected_overlay"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_channel_overlay_icon"
                 android:visibility="gone">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
@@ -44,19 +50,22 @@
                     app:tint="@color/nextAryanPurple" />
             </RelativeLayout>
         </RelativeLayout>
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:padding="16dp">
+
             <TextView
                 android:id="@+id/notification_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2dp"
                 android:fontFamily="@font/inter"
-                android:textStyle="bold"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/notification_body"
                 android:layout_width="wrap_content"
@@ -64,6 +73,7 @@
                 android:layout_marginBottom="4dp"
                 android:fontFamily="@font/inter"
                 android:textSize="14sp" />
+
             <TextView
                 android:id="@+id/notification_time"
                 android:layout_width="wrap_content"

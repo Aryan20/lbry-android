@@ -179,14 +179,17 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="8dp"
                 android:visibility="gone" />
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/repost_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/button"
                 android:fontFamily="@font/inter"
                 android:text="@string/repost"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true" />
+                android:textColor="@color/text" />
         </RelativeLayout>
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
