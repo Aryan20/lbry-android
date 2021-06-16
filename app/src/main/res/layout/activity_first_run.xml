@@ -9,31 +9,36 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/AryanPurple">
+
         <RelativeLayout
             android:id="@+id/welcome_wait_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="24dp"
             android:visibility="gone">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true">
+
                 <ProgressBar
                     android:id="@+id/welcome_progress_bar"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="8dp" />
+
                 <TextView
                     android:id="@+id/welcome_wait_text"
-                    android:fontFamily="@font/inter"
-                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/welcome_please_wait"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/inter"
                     android:lineSpacingMultiplier="1.2"
+                    android:text="@string/welcome_please_wait"
                     android:textColor="@color/white"
                     android:textFontWeight="300" />
             </LinearLayout>
@@ -41,21 +46,22 @@
 
         <RelativeLayout
             android:id="@+id/welcome_link_use_lbry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:padding="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent">
+
             <TextView
-                android:textColor="@color/white"
-                android:fontFamily="@font/inter"
-                android:layout_alignParentEnd="true"
-                android:layout_centerInParent="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/use_lbry" />
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/inter"
+                android:text="@string/use_lbry"
+                android:textColor="@color/white" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -63,34 +69,38 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone">
+
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:orientation="vertical"
                 android:padding="24dp">
+
                 <TextView
-                    android:fontFamily="@font/inter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter"
                     android:text="@string/welcome_to_lbry"
                     android:textColor="@color/white"
                     android:textSize="32sp" />
+
                 <TextView
-                    android:fontFamily="@font/inter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/inter"
                     android:text="@string/welcome_paragraph"
                     android:textColor="@color/white"
-                    android:layout_marginTop="16dp"
                     android:textFontWeight="300"
                     android:textSize="16sp" />
+
                 <TextView
                     android:id="@+id/welcome_text_view_tos"
-                    android:fontFamily="@font/inter"
-                    android:layout_marginTop="48dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:fontFamily="@font/inter"
                     android:linksClickable="true"
                     android:text="@string/welcome_tos"
                     android:textColor="@color/white"

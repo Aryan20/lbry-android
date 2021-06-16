@@ -5,7 +5,7 @@
     <color name="colorAccent">#2D1F3D</color>
 
     <color name="pageBackground">#0F0F0F</color>
-    <color name="search">#EE2D1F3D</color>
+    <color name="search">#AA2D1F3D</color>
     <color name="actionBarBackground">#1C1326</color>
     <color name="statusBarColor">#000000</color>
     <color name="actionBarForeground">#CCCCCC</color>
@@ -31,6 +31,7 @@
 
     <color name="brighterAryanPurple">#2D1F3D</color>
     <color name="text">#FFFFFF</color>
+    <color name="button">#0f7996</color>
     <color name="AryanPurple">#120320</color>
     <color name="nextAryanPurple">#2D1F3D</color>
     <color name="nextLbryGreenSemiTransparent">#55FFFFFF</color>

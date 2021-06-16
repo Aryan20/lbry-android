@@ -4,42 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pageBackground">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp"
+        android:background="@color/AryanPurple"
         android:paddingStart="16dp"
+        android:paddingTop="16dp"
         android:paddingEnd="16dp">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/rewards_filter_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="12dp">
+
                 <TextView
                     android:id="@+id/rewards_filter_link_unclaimed"
-                    android:background="?attr/selectableItemBackground"
-                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
                     android:fontFamily="@font/inter"
                     android:text="@string/unclaimed"
                     android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/rewards_filter_link_all"
-                    android:background="?attr/selectableItemBackground"
-                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="16dp"
                     android:layout_toEndOf="@id/rewards_filter_link_unclaimed"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
                     android:fontFamily="@font/inter"
                     android:text="@string/all"
                     android:textSize="14sp" />
+
                 <ProgressBar
                     android:id="@+id/rewards_list_loading"
                     android:layout_width="20dp"
@@ -49,12 +56,13 @@
                     android:visibility="gone" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rewards_list"
-            android:clipToPadding="false"
-            android:layout_below="@id/rewards_filter_card"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@id/rewards_filter_card"
+            android:clipToPadding="false"
             android:paddingTop="16dp" />
     </RelativeLayout>
 
@@ -143,12 +151,14 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/rewards_get_started_button"
-                android:layout_alignParentEnd="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
+                android:backgroundTint="@color/button"
                 android:fontFamily="@font/inter"
-                android:text="@string/get_started" />
+                android:text="@string/get_started"
+                android:textColor="@color/text" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

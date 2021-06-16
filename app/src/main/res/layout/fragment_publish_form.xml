@@ -581,7 +581,8 @@
                     android:layout_centerVertical="true"
                     android:backgroundTint="@color/button"
                     android:fontFamily="@font/inter"
-                    android:text="@string/publish" />
+                    android:text="@string/publish"
+                    android:textColor="@color/text" />
             </RelativeLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

@@ -97,6 +97,7 @@
                 android:layout_alignParentBottom="true"
                 android:paddingStart="110dp"
                 app:tabGravity="fill"
+                app:tabIndicatorColor="@color/button"
                 app:tabMode="scrollable"
                 app:tabTextColor="@color/white" />
             <RelativeLayout
