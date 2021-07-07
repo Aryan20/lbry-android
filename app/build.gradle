@@ -134,12 +134,16 @@ dependencies {
 
     __32bitImplementation 'io.lbry:lbrysdk32:0.100.0'
     __64bitImplementation 'io.lbry:lbrysdk64:0.100.0'
+<<<<<<< HEAD
 }
 
 repositories {
     flatDir {
         dirs 'libs'
     }
+=======
+    //__64bitImplementation(name: 'lbrysdk', ext: 'aar')
+>>>>>>> 9278e74e85f1ad3ed2e7f891a966326d49ff9473
 }
 
 apply plugin: 'com.google.gms.google-services'
