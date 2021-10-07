@@ -4,11 +4,17 @@
 
 An Android browser and wallet for the [LBRY](https://lbry.com) network.
 
+### Modified dark theme
+![90puy9b37o471](https://user-images.githubusercontent.com/34372791/136355980-6ddc4846-87a5-49fb-8f47-54079666accd.png)
 
-<img src="https://spee.ch/@lbry:3f/android-08-homepage.gif" alt="LBRY Android GIF" width="384px" />
 
 
 ## Installation
+
+### Modified Version -
+By downloading the latest release from GitHub
+
+### Original Version - 
 The minimum supported Android version is 5.0 Lollipop. There are two ways to install:
 
 1. Via the Google Play Store. Anyone can join the [open beta](https://play.google.com/apps/testing/io.lbry.browser) in order to install the app from the Play Store.
@@ -31,7 +37,7 @@ twitterConsumerSecret=XXXXXX
 Click the Sync button and when process finishes, the Run button to launch the app on your simulator or connected debugging device after the build process is complete.
 
 ## Contributing
-Contributions to this project are welcome, encouraged, and compensated. For more details, see https://lbry.io/faq/contributing
+Contributions to this project are welcome and encouraged
 
 ## License
 This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
@@ -40,4 +46,11 @@ This project is MIT licensed. For the full license, see [LICENSE](LICENSE).
 We take security seriously. Please contact security@lbry.com regarding any security issues. Our PGP key is [here](https://lbry.com/faq/pgp-key) if you need it.
 
 ## Contact
-The primary contact for this project is [@akinwale](https://github.com/akinwale) (akinwale@lbry.com)
+
+The primary contact for this project is [@Aryan20](https://github.com/Aryan20) (aryankaushik2023@gmail.com)
+
+The primary contact for original project is [@akinwale](https://github.com/akinwale) (akinwale@lbry.com)
+
+## Note
+
+This project is neither supported nor affiliated by LBRY org, this is just a fun project that I did to make it look better for me
