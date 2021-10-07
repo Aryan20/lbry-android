@@ -21,7 +21,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-     packagingOptions {
+    packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'lib/x86_64/darwin/libscrypt.dylib'
     }
@@ -122,6 +122,9 @@ dependencies {
     implementation 'org.bitcoinj:bitcoinj-tools:0.14.7'
     implementation 'org.java-websocket:Java-WebSocket:1.5.1'
 
+    implementation ('com.journeyapps:zxing-android-embedded:4.1.0') { transitive = false }
+    implementation 'com.google.zxing:core:3.3.0'
+
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
@@ -132,18 +135,16 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    __32bitImplementation 'io.lbry:lbrysdk32:0.100.0'
-    __64bitImplementation 'io.lbry:lbrysdk64:0.100.0'
-<<<<<<< HEAD
+    __32bitImplementation 'io.lbry:lbrysdk32:0.102.0'
+    __64bitImplementation 'io.lbry:lbrysdk64:0.102.0'
+    //__64bitImplementation(name: 'lbrysdk', ext: 'aar'
+
 }
 
 repositories {
     flatDir {
         dirs 'libs'
     }
-=======
-    //__64bitImplementation(name: 'lbrysdk', ext: 'aar')
->>>>>>> 9278e74e85f1ad3ed2e7f891a966326d49ff9473
 }
 
 apply plugin: 'com.google.gms.google-services'
