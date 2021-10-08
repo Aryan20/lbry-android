@@ -5,8 +5,8 @@
 An Android browser and wallet for the [LBRY](https://lbry.com) network.
 
 ### Modified dark theme
-![90puy9b37o471](https://user-images.githubusercontent.com/34372791/136355980-6ddc4846-87a5-49fb-8f47-54079666accd.png)
 
+![Demo screenshot](https://user-images.githubusercontent.com/34372791/136521433-5ffc3f53-caa8-442d-b65b-b723310aa91d.png)
 
 
 ## Installation
