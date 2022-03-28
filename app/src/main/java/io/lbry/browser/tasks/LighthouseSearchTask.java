@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -6,12 +6,12 @@ import android.widget.ProgressBar;
 
 import java.util.List;
 
-import io.lbry.browser.exceptions.LbryRequestException;
-import io.lbry.browser.exceptions.LbryResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lighthouse;
+import com.aryan.lbrybrowser.exceptions.LbryRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lighthouse;
 
 public class LighthouseSearchTask extends AsyncTask<Void, Void, List<Claim>> {
     private final String rawQuery;

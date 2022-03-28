@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.wallet;
+package com.aryan.lbrybrowser.ui.wallet;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,18 +24,18 @@ import com.google.android.material.snackbar.Snackbar;
 import java.text.DecimalFormat;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.RewardListAdapter;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.tasks.lbryinc.ClaimRewardTask;
-import io.lbry.browser.tasks.lbryinc.FetchRewardsTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.RewardListAdapter;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.tasks.lbryinc.ClaimRewardTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchRewardsTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class RewardsFragment extends BaseFragment implements RewardListAdapter.RewardClickListener, SdkStatusListener {
 

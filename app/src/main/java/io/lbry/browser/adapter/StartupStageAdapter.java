@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.StartupStage;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.StartupStage;
 
 public class StartupStageAdapter extends BaseAdapter {
     private final List<StartupStage> list;

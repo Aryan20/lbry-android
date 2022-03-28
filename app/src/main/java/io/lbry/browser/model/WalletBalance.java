@@ -1,10 +1,10 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import org.json.JSONObject;
 
 import java.math.BigDecimal;
 
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

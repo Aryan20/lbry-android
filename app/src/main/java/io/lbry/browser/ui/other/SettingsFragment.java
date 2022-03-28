@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.other;
+package com.aryan.lbrybrowser.ui.other;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,10 +16,10 @@ import androidx.preference.PreferenceManager;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
 import io.lbry.lbrysdk.Utils;
 
 public class SettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener {

@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -7,9 +7,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class WalletSendTask extends AsyncTask<Void, Void, Boolean> {
     private final String recipientAddress;

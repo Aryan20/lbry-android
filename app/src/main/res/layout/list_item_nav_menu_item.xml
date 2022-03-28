@@ -11,7 +11,7 @@
     android:focusable="true"
     android:background="@drawable/bg_selected_nav_item"
     android:foreground="?attr/selectableItemBackground">
-    <io.lbry.browser.ui.controls.SolidIconView
+    <com.aryan.lbrybrowser.ui.controls.SolidIconView
         android:id="@+id/nav_menu_item_icon"
         android:layout_width="20dp"
         android:layout_height="20dp"

@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.channel;
+package com.aryan.lbrybrowser.ui.channel;
 
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.core.text.HtmlCompat;
 import androidx.fragment.app.Fragment;
 
-import io.lbry.browser.R;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Setter;
 
 public class ChannelAboutFragment extends Fragment {

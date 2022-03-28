@@ -1,4 +1,4 @@
-package io.lbry.browser.data;
+package com.aryan.lbrybrowser.data;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -12,13 +12,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.UrlSuggestion;
-import io.lbry.browser.model.ViewHistory;
-import io.lbry.browser.model.lbryinc.LbryNotification;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.model.ViewHistory;
+import com.aryan.lbrybrowser.model.lbryinc.LbryNotification;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 8;

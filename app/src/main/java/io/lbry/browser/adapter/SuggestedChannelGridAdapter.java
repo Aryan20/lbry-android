@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,10 +15,10 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.listener.ChannelItemSelectionListener;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.listener.ChannelItemSelectionListener;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Setter;
 
 public class SuggestedChannelGridAdapter extends RecyclerView.Adapter<SuggestedChannelGridAdapter.ViewHolder> {

@@ -1,4 +1,4 @@
-package io.lbry.browser;
+package com.aryan.lbrybrowser;
 
 import androidx.core.content.FileProvider;
 

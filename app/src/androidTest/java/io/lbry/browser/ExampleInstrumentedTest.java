@@ -1,4 +1,4 @@
-package io.lbry.browser;
+package com.aryan.lbrybrowser;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("io.lbry.browser", appContext.getPackageName());
+        assertEquals("com.aryan.lbrybrowser", appContext.getPackageName());
     }
 }

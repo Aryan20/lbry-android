@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.text.format.DateUtils;
@@ -21,13 +21,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.R;
-import io.lbry.browser.listener.SelectionModeListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.listener.SelectionModeListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import lombok.Getter;
 import lombok.Setter;
 

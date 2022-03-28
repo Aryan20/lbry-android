@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.localdata;
+package com.aryan.lbrybrowser.tasks.localdata;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.model.ViewHistory;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.model.ViewHistory;
+import com.aryan.lbrybrowser.utils.Helper;
 
 public class FetchViewHistoryTask extends AsyncTask<Void, Void, List<ViewHistory>> {
     private final DatabaseHelper dbHelper;

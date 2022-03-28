@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.app.Activity;
 import android.content.Context;

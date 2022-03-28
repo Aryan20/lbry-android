@@ -1,15 +1,15 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.os.AsyncTask;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class LogFileViewTask extends AsyncTask<Void, Void, Boolean> {
     private final String uri;

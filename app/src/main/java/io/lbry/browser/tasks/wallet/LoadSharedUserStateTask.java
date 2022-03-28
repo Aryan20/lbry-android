@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,15 +12,15 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryUri;
 
 /*
   version: '0.1',

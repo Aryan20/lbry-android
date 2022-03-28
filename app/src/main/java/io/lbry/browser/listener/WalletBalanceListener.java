@@ -1,6 +1,6 @@
-package io.lbry.browser.listener;
+package com.aryan.lbrybrowser.listener;
 
-import io.lbry.browser.model.WalletBalance;
+import com.aryan.lbrybrowser.model.WalletBalance;
 
 public interface WalletBalanceListener {
     void onWalletBalanceUpdated(WalletBalance walletBalance);

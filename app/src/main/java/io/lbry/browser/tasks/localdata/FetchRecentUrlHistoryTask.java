@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.localdata;
+package com.aryan.lbrybrowser.tasks.localdata;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -7,8 +7,8 @@ import android.os.AsyncTask;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
 
 public class FetchRecentUrlHistoryTask extends AsyncTask<Void, Void, List<UrlSuggestion>> {
     private final DatabaseHelper dbHelper;

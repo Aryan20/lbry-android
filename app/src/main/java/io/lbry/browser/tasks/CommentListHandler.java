@@ -1,8 +1,8 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import java.util.List;
 
-import io.lbry.browser.model.Comment;
+import com.aryan.lbrybrowser.model.Comment;
 
 public interface CommentListHandler {
     void onSuccess(List<Comment> comments, boolean hasReachedEnd);

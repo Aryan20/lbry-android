@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">LBRY</string>
+    <string name="app_name">Modified LBRY</string>
     <string name="navigation_drawer_open">Deschidere meniu</string>
     <string name="navigation_drawer_close">Închidere meniu</string>
 

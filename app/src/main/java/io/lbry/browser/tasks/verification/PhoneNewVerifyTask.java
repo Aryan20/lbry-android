@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.verification;
+package com.aryan.lbrybrowser.tasks.verification;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -6,11 +6,11 @@ import android.view.View;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class PhoneNewVerifyTask extends AsyncTask<Void, Void, Boolean> {
     private final String countryCode;

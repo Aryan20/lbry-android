@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.verification;
+package com.aryan.lbrybrowser.ui.verification;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,11 +21,11 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.hbb20.CountryCodePicker;
 
-import io.lbry.browser.R;
-import io.lbry.browser.listener.SignInListener;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.verification.PhoneNewVerifyTask;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.listener.SignInListener;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.verification.PhoneNewVerifyTask;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Setter;
 
 public class PhoneVerificationFragment extends Fragment {

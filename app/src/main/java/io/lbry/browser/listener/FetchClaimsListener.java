@@ -1,8 +1,8 @@
-package io.lbry.browser.listener;
+package com.aryan.lbrybrowser.listener;
 
 import java.util.List;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 
 public interface FetchClaimsListener {
     void onClaimsFetched(List<Claim> claims);

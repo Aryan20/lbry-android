@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.claim;
+package com.aryan.lbrybrowser.tasks.claim;
 
 import java.util.List;
 

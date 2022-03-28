@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.controls;
+package com.aryan.lbrybrowser.ui.controls;
 
 import android.content.Context;
 import android.graphics.Typeface;

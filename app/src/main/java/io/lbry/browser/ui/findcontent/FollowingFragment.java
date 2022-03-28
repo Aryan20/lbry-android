@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.findcontent;
+package com.aryan.lbrybrowser.ui.findcontent;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -27,33 +27,33 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.ChannelFilterListAdapter;
-import io.lbry.browser.adapter.ClaimListAdapter;
-import io.lbry.browser.adapter.SuggestedChannelGridAdapter;
-import io.lbry.browser.dialog.ContentFromDialogFragment;
-import io.lbry.browser.dialog.ContentSortDialogFragment;
-import io.lbry.browser.dialog.DiscoverDialogFragment;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.listener.DownloadActionListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.tasks.lbryinc.ChannelSubscribeTask;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimSearchTask;
-import io.lbry.browser.tasks.lbryinc.FetchSubscriptionsTask;
-import io.lbry.browser.tasks.claim.ResolveTask;
-import io.lbry.browser.listener.ChannelItemSelectionListener;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.ChannelFilterListAdapter;
+import com.aryan.lbrybrowser.adapter.ClaimListAdapter;
+import com.aryan.lbrybrowser.adapter.SuggestedChannelGridAdapter;
+import com.aryan.lbrybrowser.dialog.ContentFromDialogFragment;
+import com.aryan.lbrybrowser.dialog.ContentSortDialogFragment;
+import com.aryan.lbrybrowser.dialog.DiscoverDialogFragment;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.listener.DownloadActionListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.ChannelSubscribeTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchSubscriptionsTask;
+import com.aryan.lbrybrowser.tasks.claim.ResolveTask;
+import com.aryan.lbrybrowser.listener.ChannelItemSelectionListener;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
+import com.aryan.lbrybrowser.utils.Predefined;
 
 public class FollowingFragment extends BaseFragment implements
         FetchSubscriptionsTask.FetchSubscriptionsHandler,

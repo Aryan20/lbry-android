@@ -1,2 +1,2 @@
-rootProject.name='LBRY'
+rootProject.name='Modified LBRY'
 include ':app'

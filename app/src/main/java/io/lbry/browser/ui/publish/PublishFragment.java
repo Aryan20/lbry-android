@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.publish;
+package com.aryan.lbrybrowser.ui.publish;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -34,19 +34,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.GalleryGridAdapter;
-import io.lbry.browser.listener.CameraPermissionListener;
-import io.lbry.browser.listener.FilePickerListener;
-import io.lbry.browser.listener.StoragePermissionListener;
-import io.lbry.browser.model.GalleryItem;
-import io.lbry.browser.model.NavMenuItem;
-import io.lbry.browser.tasks.localdata.LoadGalleryItemsTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.GalleryGridAdapter;
+import com.aryan.lbrybrowser.listener.CameraPermissionListener;
+import com.aryan.lbrybrowser.listener.FilePickerListener;
+import com.aryan.lbrybrowser.listener.StoragePermissionListener;
+import com.aryan.lbrybrowser.model.GalleryItem;
+import com.aryan.lbrybrowser.model.NavMenuItem;
+import com.aryan.lbrybrowser.tasks.localdata.LoadGalleryItemsTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
 
 public class PublishFragment extends BaseFragment implements
         CameraPermissionListener, FilePickerListener, StoragePermissionListener {

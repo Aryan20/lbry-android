@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -14,13 +14,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 // background task to create a diff of local and remote subscriptions and try to merge
 public class MergeSubscriptionsTask extends AsyncTask<Void, Void, List<Subscription>> {

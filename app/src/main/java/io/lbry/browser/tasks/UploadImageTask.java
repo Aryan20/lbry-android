@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -11,8 +11,8 @@ import java.io.IOException;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.exceptions.LbryResponseException;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.exceptions.LbryResponseException;
+import com.aryan.lbrybrowser.utils.Helper;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.OkHttpClient;

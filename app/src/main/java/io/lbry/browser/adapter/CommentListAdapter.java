@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.text.format.DateUtils;
@@ -17,13 +17,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.ClaimCacheKey;
-import io.lbry.browser.model.Comment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.ClaimCacheKey;
+import com.aryan.lbrybrowser.model.Comment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Setter;
 
 public class CommentListAdapter extends RecyclerView.Adapter<CommentListAdapter.ViewHolder> {

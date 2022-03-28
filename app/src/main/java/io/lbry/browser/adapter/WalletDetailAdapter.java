@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,11 +14,11 @@ import androidx.appcompat.app.AlertDialog;
 
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.model.WalletDetailItem;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.views.CreditsBalanceView;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.WalletDetailItem;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.views.CreditsBalanceView;
 
 public class WalletDetailAdapter extends BaseAdapter {
     private final List<WalletDetailItem> list;

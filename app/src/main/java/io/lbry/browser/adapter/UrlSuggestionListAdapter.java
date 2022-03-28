@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.UrlSuggestion;
-import io.lbry.browser.ui.controls.SolidIconView;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.ui.controls.SolidIconView;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Setter;
 
 public class UrlSuggestionListAdapter extends RecyclerView.Adapter<UrlSuggestionListAdapter.ViewHolder> {

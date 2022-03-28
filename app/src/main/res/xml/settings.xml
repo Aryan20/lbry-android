@@ -6,31 +6,31 @@
         android:title="@string/user_interface"
         app:iconSpaceReserved="false">
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.userinterface.BackgroundPlayback"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.BackgroundPlayback"
             app:defaultValue="true"
             app:title="@string/enable_background_playback"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
             app:defaultValue="true"
             app:iconSpaceReserved="false"
-            app:key="io.lbry.browser.preference.userinterface.MediaAutoplay"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.MediaAutoplay"
             app:title="@string/enable_autoplay" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.userinterface.DarkMode"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.DarkMode"
             app:title="@string/enable_dark_mode"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.userinterface.ShowMatureContent"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.ShowMatureContent"
             app:title="@string/show_mature_content"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.userinterface.UrlSuggestions"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.UrlSuggestions"
             app:title="@string/show_url_suggestions"
             app:defaultValue="true"
             app:iconSpaceReserved="false" />
         <EditTextPreference
             android:inputType="numberDecimal|numberSigned"
-            app:key="io.lbry.browser.preference.userinterface.MiniPlayerBottomMargin"
+            app:key="com.aryan.lbrybrowser.preference.userinterface.MiniPlayerBottomMargin"
             app:title="@string/mini_player_bottom_spacing"
             app:defaultValue="4"
             app:iconSpaceReserved="false" />
@@ -40,22 +40,22 @@
         android:title="@string/notifications"
         app:iconSpaceReserved="false">
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.notifications.Comments"
+            app:key="com.aryan.lbrybrowser.preference.notifications.Comments"
             app:title="@string/comments"
             app:defaultValue="true"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.notifications.Subscriptions"
+            app:key="com.aryan.lbrybrowser.preference.notifications.Subscriptions"
             app:title="@string/subscriptions"
             app:defaultValue="true"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.notifications.Rewards"
+            app:key="com.aryan.lbrybrowser.preference.notifications.Rewards"
             app:title="@string/rewards"
             app:defaultValue="true"
             app:iconSpaceReserved="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.notifications.ContentInterests"
+            app:key="com.aryan.lbrybrowser.preference.notifications.ContentInterests"
             app:title="@string/content_interests"
             app:defaultValue="true"
             app:iconSpaceReserved="false" />
@@ -65,18 +65,18 @@
         android:title="@string/other"
         app:iconSpaceReserved="false">
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.other.KeepSdkInBackground"
+            app:key="com.aryan.lbrybrowser.preference.other.KeepSdkInBackground"
             app:title="@string/keep_sdk_in_background"
             android:defaultValue="true"
             app:iconSpaceReserved="false"
             app:singleLineTitle="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.other.ParticipateInDataNetwork"
+            app:key="com.aryan.lbrybrowser.preference.other.ParticipateInDataNetwork"
             app:title="@string/participate_in_data_network"
             app:iconSpaceReserved="false"
             app:singleLineTitle="false" />
         <SwitchPreferenceCompat
-            app:key="io.lbry.browser.preference.other.SendBufferingEvents"
+            app:key="com.aryan.lbrybrowser.preference.other.SendBufferingEvents"
             app:title="@string/send_buffering_events"
             app:defaultValue="true"
             app:iconSpaceReserved="false"

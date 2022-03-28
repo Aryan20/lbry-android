@@ -1,11 +1,11 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import java.util.Arrays;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Language;
-import io.lbry.browser.model.License;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Language;
+import com.aryan.lbrybrowser.model.License;
 
 public final class Predefined {
     public static final List<String> DEFAULT_KNOWN_TAGS = Arrays.asList(

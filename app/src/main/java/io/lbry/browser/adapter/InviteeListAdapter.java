@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.lbryinc.Invitee;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.lbryinc.Invitee;
 
 public class InviteeListAdapter extends RecyclerView.Adapter<InviteeListAdapter.ViewHolder> {
 

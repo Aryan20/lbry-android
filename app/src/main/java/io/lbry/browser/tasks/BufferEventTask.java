@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 import android.util.Log;
@@ -7,7 +7,7 @@ import org.json.JSONObject;
 
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Helper;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;

@@ -1,4 +1,4 @@
-package io.lbry.browser.dialog;
+package com.aryan.lbrybrowser.dialog;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import io.lbry.browser.R;
+import com.aryan.lbrybrowser.R;
 import lombok.Setter;
 
 public class ContentSortDialogFragment extends BottomSheetDialogFragment {

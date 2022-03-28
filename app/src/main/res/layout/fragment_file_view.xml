@@ -320,7 +320,7 @@
                             android:layout_height="36dp"
                             android:layout_gravity="center_horizontal">
 
-                            <io.lbry.browser.ui.controls.SolidIconView
+                            <com.aryan.lbrybrowser.ui.controls.SolidIconView
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_centerInParent="true"
@@ -354,7 +354,7 @@
                             android:layout_height="36dp"
                             android:layout_gravity="center_horizontal">
 
-                            <io.lbry.browser.ui.controls.SolidIconView
+                            <com.aryan.lbrybrowser.ui.controls.SolidIconView
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_centerInParent="true"
@@ -662,7 +662,7 @@
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
 
-                            <io.lbry.browser.ui.controls.OutlineIconView
+                            <com.aryan.lbrybrowser.ui.controls.OutlineIconView
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_marginStart="16dp"
@@ -672,7 +672,7 @@
                                 android:textSize="20dp" />
                         </LinearLayout>
 
-                        <io.lbry.browser.ui.controls.SolidIconView
+                        <com.aryan.lbrybrowser.ui.controls.SolidIconView
                             android:id="@+id/file_view_icon_unfollow"
                             android:layout_width="24dp"
                             android:layout_height="24dp"
@@ -685,7 +685,7 @@
                             android:textSize="20dp"
                             android:visibility="gone" />
 
-                        <io.lbry.browser.ui.controls.SolidIconView
+                        <com.aryan.lbrybrowser.ui.controls.SolidIconView
                             android:id="@+id/file_view_icon_bell"
                             android:layout_width="24dp"
                             android:layout_height="24dp"

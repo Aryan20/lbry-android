@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -15,11 +15,11 @@ import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.model.TwitterOauth;
-import io.lbry.browser.model.lbryinc.RewardVerified;
-import io.lbry.browser.tasks.RewardVerifiedHandler;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.model.TwitterOauth;
+import com.aryan.lbrybrowser.model.lbryinc.RewardVerified;
+import com.aryan.lbrybrowser.tasks.RewardVerifiedHandler;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class TwitterVerifyTask extends AsyncTask<Void, Void, RewardVerified> {
     private final Context context;

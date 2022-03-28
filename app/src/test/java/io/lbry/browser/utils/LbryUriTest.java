@@ -1,10 +1,10 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import org.jetbrains.annotations.NotNull;
 import org.junit.Before;
 import org.junit.Test;
 
-import io.lbry.browser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
 
 import static org.junit.Assert.assertEquals;
 

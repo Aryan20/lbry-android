@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 
@@ -11,13 +11,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 /*
   version: '0.1',

@@ -1,4 +1,4 @@
-package io.lbry.browser.dialog;
+package com.aryan.lbrybrowser.dialog;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -19,13 +19,13 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.TagListAdapter;
-import io.lbry.browser.listener.TagListener;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.tasks.UpdateSuggestedTagsTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.TagListAdapter;
+import com.aryan.lbrybrowser.listener.TagListener;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.tasks.UpdateSuggestedTagsTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 import lombok.Setter;
 
 public class CustomizeTagsDialogFragment extends BottomSheetDialogFragment {

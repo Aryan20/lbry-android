@@ -1,14 +1,14 @@
-package io.lbry.browser.tasks.file;
+package com.aryan.lbrybrowser.tasks.file;
 
 import android.os.AsyncTask;
 import android.view.View;
 
 import java.util.List;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class FileListTask extends AsyncTask<Void, Void, List<LbryFile>> {
     private final String claimId;

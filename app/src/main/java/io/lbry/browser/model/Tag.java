@@ -1,8 +1,8 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import java.util.Comparator;
 
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.utils.Predefined;
 import lombok.Getter;
 import lombok.Setter;
 

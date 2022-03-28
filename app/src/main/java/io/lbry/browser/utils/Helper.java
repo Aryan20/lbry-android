@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -47,17 +47,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.dialog.ContentFromDialogFragment;
-import io.lbry.browser.dialog.ContentSortDialogFragment;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.UrlSuggestion;
-import io.lbry.browser.model.ViewHistory;
-import io.lbry.browser.tasks.localdata.SaveUrlHistoryTask;
-import io.lbry.browser.tasks.localdata.SaveViewHistoryTask;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.dialog.ContentFromDialogFragment;
+import com.aryan.lbrybrowser.dialog.ContentSortDialogFragment;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.model.ViewHistory;
+import com.aryan.lbrybrowser.tasks.localdata.SaveUrlHistoryTask;
+import com.aryan.lbrybrowser.tasks.localdata.SaveViewHistoryTask;
 import okhttp3.MediaType;
 
 public final class Helper {

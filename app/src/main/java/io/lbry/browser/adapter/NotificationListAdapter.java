@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -22,12 +22,12 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.TimeZone;
 
-import io.lbry.browser.R;
-import io.lbry.browser.listener.SelectionModeListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.lbryinc.LbryNotification;
-import io.lbry.browser.ui.controls.SolidIconView;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.listener.SelectionModeListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.lbryinc.LbryNotification;
+import com.aryan.lbrybrowser.ui.controls.SolidIconView;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

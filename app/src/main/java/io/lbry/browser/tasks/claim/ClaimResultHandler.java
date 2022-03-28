@@ -1,6 +1,6 @@
-package io.lbry.browser.tasks.claim;
+package com.aryan.lbrybrowser.tasks.claim;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 
 public interface ClaimResultHandler {
     void beforeStart();

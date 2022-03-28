@@ -1,8 +1,8 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import androidx.annotation.Nullable;
 
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

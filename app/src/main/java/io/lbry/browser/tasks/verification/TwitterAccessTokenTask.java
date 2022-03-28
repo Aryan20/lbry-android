@@ -1,10 +1,10 @@
-package io.lbry.browser.tasks.verification;
+package com.aryan.lbrybrowser.tasks.verification;
 
 import android.os.AsyncTask;
 
-import io.lbry.browser.model.TwitterOauth;
-import io.lbry.browser.tasks.TwitterOauthHandler;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.model.TwitterOauth;
+import com.aryan.lbrybrowser.tasks.TwitterOauthHandler;
+import com.aryan.lbrybrowser.utils.Helper;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;

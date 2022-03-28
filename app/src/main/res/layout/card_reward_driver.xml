@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp">
-        <io.lbry.browser.ui.controls.SolidIconView
+        <com.aryan.lbrybrowser.ui.controls.SolidIconView
             android:id="@+id/reward_driver_icon"
             android:layout_width="20dp"
             android:layout_height="20dp"

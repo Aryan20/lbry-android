@@ -1,4 +1,4 @@
-package io.lbry.browser.dialog;
+package com.aryan.lbrybrowser.dialog;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.button.MaterialButton;
 
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.SuggestedChannelGridAdapter;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.SuggestedChannelGridAdapter;
 import lombok.Getter;
 import lombok.Setter;
 

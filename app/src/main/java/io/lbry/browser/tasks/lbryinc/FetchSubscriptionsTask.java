@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,14 +13,14 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class FetchSubscriptionsTask extends AsyncTask<Void, Void, List<Subscription>> {
     private final Context context;

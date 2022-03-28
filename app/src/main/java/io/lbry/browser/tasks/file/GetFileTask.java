@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.file;
+package com.aryan.lbrybrowser.tasks.file;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -8,10 +8,10 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class GetFileTask extends AsyncTask<Void, Void, LbryFile> {
     private final String uri;

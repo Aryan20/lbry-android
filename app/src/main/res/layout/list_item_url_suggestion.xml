@@ -8,7 +8,7 @@
     android:paddingBottom="12dp"
     android:clickable="true"
     android:focusable="true">
-    <io.lbry.browser.ui.controls.SolidIconView
+    <com.aryan.lbrybrowser.ui.controls.SolidIconView
         android:id="@+id/url_suggestion_icon"
         android:textColor="@color/foreground"
         android:layout_width="24dp"

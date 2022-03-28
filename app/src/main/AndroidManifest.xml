@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.lbry.browser"
+    package="com.aryan.lbrybrowser"
     android:installLocation="auto">
 
     <uses-feature android:name="android.hardware.camera" android:required="false" />
@@ -107,7 +107,7 @@
             tools:replace="screenOrientation" />
 
         <service
-            android:name="io.lbry.browser.LbrynetMessagingService"
+            android:name="com.aryan.lbrybrowser.LbrynetMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -115,8 +115,8 @@
         </service>
 
         <provider
-            android:name="io.lbry.browser.LocalFileProvider"
-            android:authorities="io.lbry.browser.fileprovider"
+            android:name="com.aryan.lbrybrowser.LocalFileProvider"
+            android:authorities="com.aryan.lbrybrowser.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">
             <meta-data

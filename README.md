@@ -5,8 +5,8 @@
 An Android browser and wallet for the [LBRY](https://lbry.com) network.
 
 ### Modified dark theme
+![90puy9b37o471](https://user-images.githubusercontent.com/34372791/136355980-6ddc4846-87a5-49fb-8f47-54079666accd.png)
 
-![Demo screenshot](https://user-images.githubusercontent.com/34372791/136521433-5ffc3f53-caa8-442d-b65b-b723310aa91d.png)
 
 
 ## Installation
@@ -17,7 +17,7 @@ By downloading the latest release from GitHub
 ### Original Version - 
 The minimum supported Android version is 5.0 Lollipop. There are two ways to install:
 
-1. Via the Google Play Store. Anyone can join the [open beta](https://play.google.com/apps/testing/io.lbry.browser) in order to install the app from the Play Store.
+1. Via the Google Play Store. Anyone can join the [open beta](https://play.google.com/apps/testing/com.aryan.lbrybrowser) in order to install the app from the Play Store.
 1. Direct APK install available at [http://build.lbry.io/android/latest.apk](http://build.lbry.io/android/latest.apk). You will need to enable installation from third-party sources on your device in order to install from this source.
 
 ## Usage

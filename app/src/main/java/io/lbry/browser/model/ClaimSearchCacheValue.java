@@ -1,4 +1,4 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import java.util.ArrayList;
 import java.util.List;

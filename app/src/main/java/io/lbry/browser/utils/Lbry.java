@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.util.Log;
 
@@ -22,16 +22,16 @@ import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.exceptions.LbryRequestException;
-import io.lbry.browser.exceptions.LbryResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.ClaimCacheKey;
-import io.lbry.browser.model.ClaimSearchCacheValue;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.Transaction;
-import io.lbry.browser.model.WalletBalance;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.LbryRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.ClaimCacheKey;
+import com.aryan.lbrybrowser.model.ClaimSearchCacheValue;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.Transaction;
+import com.aryan.lbrybrowser.model.WalletBalance;
 import io.lbry.lbrysdk.Utils;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

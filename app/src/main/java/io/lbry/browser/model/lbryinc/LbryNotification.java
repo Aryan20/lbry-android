@@ -1,9 +1,9 @@
-package io.lbry.browser.model.lbryinc;
+package com.aryan.lbrybrowser.model.lbryinc;
 
 import java.util.Comparator;
 import java.util.Date;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

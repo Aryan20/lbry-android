@@ -1,4 +1,4 @@
-package io.lbry.browser.dialog;
+package com.aryan.lbrybrowser.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -28,18 +28,18 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.InlineChannelSpinnerAdapter;
-import io.lbry.browser.listener.WalletBalanceListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimListTask;
-import io.lbry.browser.tasks.wallet.SupportCreateTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.InlineChannelSpinnerAdapter;
+import com.aryan.lbrybrowser.listener.WalletBalanceListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListTask;
+import com.aryan.lbrybrowser.tasks.wallet.SupportCreateTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class CreateSupportDialogFragment extends BottomSheetDialogFragment implements WalletBalanceListener {
     public static final String TAG = "CreateSupportDialog";

@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.findcontent;
+package com.aryan.lbrybrowser.ui.findcontent;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,26 +24,26 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.ClaimListAdapter;
-import io.lbry.browser.dialog.ContentFromDialogFragment;
-import io.lbry.browser.dialog.ContentScopeDialogFragment;
-import io.lbry.browser.dialog.ContentSortDialogFragment;
-import io.lbry.browser.dialog.CustomizeTagsDialogFragment;
-import io.lbry.browser.listener.DownloadActionListener;
-import io.lbry.browser.listener.TagListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.tasks.claim.ClaimSearchTask;
-import io.lbry.browser.tasks.FollowUnfollowTagTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.ClaimListAdapter;
+import com.aryan.lbrybrowser.dialog.ContentFromDialogFragment;
+import com.aryan.lbrybrowser.dialog.ContentScopeDialogFragment;
+import com.aryan.lbrybrowser.dialog.ContentSortDialogFragment;
+import com.aryan.lbrybrowser.dialog.CustomizeTagsDialogFragment;
+import com.aryan.lbrybrowser.listener.DownloadActionListener;
+import com.aryan.lbrybrowser.listener.TagListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchTask;
+import com.aryan.lbrybrowser.tasks.FollowUnfollowTagTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.Predefined;
 import lombok.Getter;
 
 // TODO: Similar code to FollowingFragment and Channel page fragment. Probably make common operations (sorting/filtering) into a control

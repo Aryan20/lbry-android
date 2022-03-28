@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -10,11 +10,11 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.lbryinc.Invitee;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.lbryinc.Invitee;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class FetchInviteStatusTask extends AsyncTask<Void, Void, List<Invitee>> {
     private final FetchInviteStatusHandler handler;

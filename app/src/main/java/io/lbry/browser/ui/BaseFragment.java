@@ -1,4 +1,4 @@
-package io.lbry.browser.ui;
+package com.aryan.lbrybrowser.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -17,18 +17,18 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.math.BigDecimal;
 import java.util.Map;
 
-import io.lbry.browser.BuildConfig;
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.InlineChannelSpinnerAdapter;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.tasks.claim.ChannelCreateUpdateTask;
-import io.lbry.browser.tasks.claim.ClaimResultHandler;
-import io.lbry.browser.tasks.lbryinc.LogPublishTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.BuildConfig;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.InlineChannelSpinnerAdapter;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.tasks.claim.ChannelCreateUpdateTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimResultHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.LogPublishTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Getter;
 import lombok.Setter;
 

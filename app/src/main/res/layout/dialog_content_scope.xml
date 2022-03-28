@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp">
-        <io.lbry.browser.ui.controls.SolidIconView
+        <com.aryan.lbrybrowser.ui.controls.SolidIconView
             android:id="@+id/content_scope_everyone_item_icon"
             android:layout_width="18dp"
             android:layout_height="18dp"
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp">
-        <io.lbry.browser.ui.controls.SolidIconView
+        <com.aryan.lbrybrowser.ui.controls.SolidIconView
             android:id="@+id/content_scope_tags_item_icon"
             android:layout_width="18dp"
             android:layout_height="18dp"

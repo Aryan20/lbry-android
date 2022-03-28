@@ -1,13 +1,13 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class UnlockTipsTask extends AsyncTask<Void, Void, Boolean> {
 

@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.findcontent;
+package com.aryan.lbrybrowser.ui.findcontent;
 
 import android.content.Context;
 import android.content.Intent;
@@ -44,25 +44,25 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.tasks.BufferEventTask;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.tasks.claim.ClaimSearchTask;
-import io.lbry.browser.tasks.lbryinc.ClaimRewardTask;
-import io.lbry.browser.tasks.lbryinc.LogFileViewTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.tasks.BufferEventTask;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.ClaimRewardTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.LogFileViewTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
+import com.aryan.lbrybrowser.utils.Predefined;
 
 public class ShuffleFragment extends BaseFragment {
 

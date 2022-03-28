@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.verification;
+package com.aryan.lbrybrowser.ui.verification;
 
 import android.app.Activity;
 import android.content.Context;
@@ -19,19 +19,19 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.VerificationActivity;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.WalletSyncListener;
-import io.lbry.browser.model.WalletSync;
-import io.lbry.browser.tasks.wallet.DefaultSyncTaskHandler;
-import io.lbry.browser.tasks.wallet.SyncApplyTask;
-import io.lbry.browser.tasks.wallet.SyncGetTask;
-import io.lbry.browser.tasks.wallet.SyncSetTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.VerificationActivity;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.WalletSyncListener;
+import com.aryan.lbrybrowser.model.WalletSync;
+import com.aryan.lbrybrowser.tasks.wallet.DefaultSyncTaskHandler;
+import com.aryan.lbrybrowser.tasks.wallet.SyncApplyTask;
+import com.aryan.lbrybrowser.tasks.wallet.SyncGetTask;
+import com.aryan.lbrybrowser.tasks.wallet.SyncSetTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import io.lbry.lbrysdk.Utils;
 import lombok.Setter;
 

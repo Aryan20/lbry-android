@@ -83,7 +83,7 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-                <io.lbry.browser.ui.controls.SolidIconView
+                <com.aryan.lbrybrowser.ui.controls.SolidIconView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:textSize="24dp"

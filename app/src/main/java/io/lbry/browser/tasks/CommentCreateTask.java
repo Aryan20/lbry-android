@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -9,10 +9,10 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.Objects;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.Comment;
-import io.lbry.browser.utils.Comments;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.Comment;
+import com.aryan.lbrybrowser.utils.Comments;
+import com.aryan.lbrybrowser.utils.Helper;
 import okhttp3.Response;
 
 public class CommentCreateTask extends AsyncTask<Void, Void, Comment> {

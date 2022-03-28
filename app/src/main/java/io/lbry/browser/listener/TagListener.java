@@ -1,6 +1,6 @@
-package io.lbry.browser.listener;
+package com.aryan.lbrybrowser.listener;
 
-import io.lbry.browser.model.Tag;
+import com.aryan.lbrybrowser.model.Tag;
 
 public interface TagListener {
     void onTagAdded(Tag tag);

@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.other;
+package com.aryan.lbrybrowser.ui.other;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,20 +26,20 @@ import org.json.JSONObject;
 
 import java.io.File;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import io.lbry.lbrysdk.Utils;
 
 public class AboutFragment extends BaseFragment implements SdkStatusListener {
 
-    private static final String FILE_PROVIDER = "io.lbry.browser.fileprovider";
+    private static final String FILE_PROVIDER = "com.aryan.lbrybrowser.fileprovider";
 
     private TextView textLinkWhatIsLBRY;
     private TextView textLinkAndroidBasics;

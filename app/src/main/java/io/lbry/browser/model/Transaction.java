@@ -1,4 +1,4 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Data;
 
 @Data

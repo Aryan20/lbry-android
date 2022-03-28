@@ -1,4 +1,4 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Data;
 
 @Data

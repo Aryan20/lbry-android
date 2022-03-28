@@ -1,4 +1,4 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
@@ -9,7 +9,7 @@ import org.json.JSONObject;
 
 import java.lang.reflect.Type;
 
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

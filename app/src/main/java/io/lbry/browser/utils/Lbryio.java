@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -30,15 +30,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.exceptions.AuthTokenInvalidatedException;
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.WalletSync;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.model.lbryinc.User;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.exceptions.AuthTokenInvalidatedException;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.WalletSync;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.model.lbryinc.User;
 import io.lbry.lbrysdk.LbrynetService;
 import io.lbry.lbrysdk.Utils;
 import lombok.Data;

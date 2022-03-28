@@ -1,4 +1,4 @@
-package io.lbry.browser;
+package com.aryan.lbrybrowser;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -21,10 +21,10 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.model.lbryinc.LbryNotification;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.model.lbryinc.LbryNotification;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -32,10 +32,10 @@ import java.util.List;
 import java.util.Map;
 
 public class LbrynetMessagingService extends FirebaseMessagingService {
-    public static final String ACTION_NOTIFICATION_RECEIVED = "io.lbry.browser.Broadcast.NotificationReceived";
+    public static final String ACTION_NOTIFICATION_RECEIVED = "com.aryan.lbrybrowser.Broadcast.NotificationReceived";
 
     private static final String TAG = "LbrynetMessagingService";
-    private static final String NOTIFICATION_CHANNEL_ID = "io.lbry.browser.LBRY_ENGAGEMENT_CHANNEL";
+    private static final String NOTIFICATION_CHANNEL_ID = "com.aryan.lbrybrowser.LBRY_ENGAGEMENT_CHANNEL";
     private static final String TYPE_COMMENT = "comment";
     private static final String TYPE_SUBSCRIPTION = "subscription";
     private static final String TYPE_REWARD = "reward";

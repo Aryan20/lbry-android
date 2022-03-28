@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 
@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Helper;
 
 public class ReadTextFileTask extends AsyncTask<Void, Void, String> {
     private final String filePath;

@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name">LBRY</string>
+    <string name="app_name">Modified LBRY</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -625,7 +625,7 @@
     </plurals>
 
     <!-- About -->
-    <string name="about_lbry">About LBRY</string>
+    <string name="about_lbry">About Modified LBRY</string>
     <string name="content_freedom">Content Freedom</string>
     <string name="about_paragraph">LBRY is a free, open, and community-run digital marketplace. It is a decentralized peer-to-peer content distribution platform for creators to upload and share content, and earn LBRY credits for their effort. Users will be able to find a wide selection of videos, music, ebooks and other digital content they are interested in.</string>
     <string name="get_social">Get Social</string>

@@ -1,4 +1,4 @@
-package io.lbry.browser.exceptions;
+package com.aryan.lbrybrowser.exceptions;
 
 public class LbryRequestException extends Exception {
     public LbryRequestException() {

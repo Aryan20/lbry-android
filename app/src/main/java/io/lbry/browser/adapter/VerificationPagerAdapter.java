@@ -1,15 +1,15 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import io.lbry.browser.listener.SignInListener;
-import io.lbry.browser.listener.WalletSyncListener;
-import io.lbry.browser.ui.verification.EmailVerificationFragment;
-import io.lbry.browser.ui.verification.ManualVerificationFragment;
-import io.lbry.browser.ui.verification.PhoneVerificationFragment;
-import io.lbry.browser.ui.verification.WalletVerificationFragment;
+import com.aryan.lbrybrowser.listener.SignInListener;
+import com.aryan.lbrybrowser.listener.WalletSyncListener;
+import com.aryan.lbrybrowser.ui.verification.EmailVerificationFragment;
+import com.aryan.lbrybrowser.ui.verification.ManualVerificationFragment;
+import com.aryan.lbrybrowser.ui.verification.PhoneVerificationFragment;
+import com.aryan.lbrybrowser.ui.verification.WalletVerificationFragment;
 import lombok.SneakyThrows;
 
 /**

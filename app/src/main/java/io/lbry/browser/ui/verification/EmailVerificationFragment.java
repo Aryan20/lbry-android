@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.verification;
+package com.aryan.lbrybrowser.ui.verification;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,13 +24,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.R;
-import io.lbry.browser.listener.SignInListener;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.verification.CheckUserEmailVerifiedTask;
-import io.lbry.browser.tasks.verification.EmailNewTask;
-import io.lbry.browser.tasks.verification.EmailResendTask;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.listener.SignInListener;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.verification.CheckUserEmailVerifiedTask;
+import com.aryan.lbrybrowser.tasks.verification.EmailNewTask;
+import com.aryan.lbrybrowser.tasks.verification.EmailResendTask;
+import com.aryan.lbrybrowser.utils.Helper;
 import lombok.Setter;
 
 public class EmailVerificationFragment extends Fragment {

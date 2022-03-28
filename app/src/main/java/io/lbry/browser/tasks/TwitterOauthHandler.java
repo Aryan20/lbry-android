@@ -1,6 +1,6 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
-import io.lbry.browser.model.TwitterOauth;
+import com.aryan.lbrybrowser.model.TwitterOauth;
 
 public interface TwitterOauthHandler {
     void onSuccess(TwitterOauth twitterOauth);

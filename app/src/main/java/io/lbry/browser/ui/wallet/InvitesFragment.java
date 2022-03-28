@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.wallet;
+package com.aryan.lbrybrowser.ui.wallet;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -27,27 +27,27 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.InlineChannelSpinnerAdapter;
-import io.lbry.browser.adapter.InviteeListAdapter;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.WalletBalanceListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.model.lbryinc.Invitee;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimListTask;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.lbryinc.FetchInviteStatusTask;
-import io.lbry.browser.tasks.lbryinc.FetchReferralCodeTask;
-import io.lbry.browser.tasks.lbryinc.InviteByEmailTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.InlineChannelSpinnerAdapter;
+import com.aryan.lbrybrowser.adapter.InviteeListAdapter;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.WalletBalanceListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.model.lbryinc.Invitee;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListTask;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchInviteStatusTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchReferralCodeTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.InviteByEmailTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class InvitesFragment extends BaseFragment implements SdkStatusListener, WalletBalanceListener {
 

@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Language;
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Language;
+import com.aryan.lbrybrowser.utils.Predefined;
 
 public class LanguageSpinnerAdapter extends ArrayAdapter<Language> {
     private final int layoutResourceId;

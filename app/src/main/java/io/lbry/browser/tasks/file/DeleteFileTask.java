@@ -1,13 +1,13 @@
-package io.lbry.browser.tasks.file;
+package com.aryan.lbrybrowser.tasks.file;
 
 import android.os.AsyncTask;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class DeleteFileTask extends AsyncTask<Void, Void, Boolean> {
     private final String claimId;

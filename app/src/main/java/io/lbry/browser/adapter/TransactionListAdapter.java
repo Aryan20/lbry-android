@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,10 +15,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Transaction;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Transaction;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Setter;
 
 public class TransactionListAdapter extends RecyclerView.Adapter<TransactionListAdapter.ViewHolder> {

@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.channel;
+package com.aryan.lbrybrowser.ui.channel;
 
 import android.Manifest;
 import android.content.Context;
@@ -32,27 +32,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.BuildConfig;
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.TagListAdapter;
-import io.lbry.browser.listener.FilePickerListener;
-import io.lbry.browser.listener.StoragePermissionListener;
-import io.lbry.browser.listener.WalletBalanceListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.NavMenuItem;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.tasks.UpdateSuggestedTagsTask;
-import io.lbry.browser.tasks.UploadImageTask;
-import io.lbry.browser.tasks.claim.ChannelCreateUpdateTask;
-import io.lbry.browser.tasks.claim.ClaimResultHandler;
-import io.lbry.browser.tasks.lbryinc.LogPublishTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.BuildConfig;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.TagListAdapter;
+import com.aryan.lbrybrowser.listener.FilePickerListener;
+import com.aryan.lbrybrowser.listener.StoragePermissionListener;
+import com.aryan.lbrybrowser.listener.WalletBalanceListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.NavMenuItem;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.tasks.UpdateSuggestedTagsTask;
+import com.aryan.lbrybrowser.tasks.UploadImageTask;
+import com.aryan.lbrybrowser.tasks.claim.ChannelCreateUpdateTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimResultHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.LogPublishTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Getter;
 
 public class ChannelFormFragment extends BaseFragment implements

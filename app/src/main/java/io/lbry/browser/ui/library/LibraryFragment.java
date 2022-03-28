@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.library;
+package com.aryan.lbrybrowser.ui.library;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,29 +31,29 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.ClaimListAdapter;
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.listener.DownloadActionListener;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.SelectionModeListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.ViewHistory;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimListTask;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.tasks.claim.PurchaseListTask;
-import io.lbry.browser.tasks.claim.ResolveTask;
-import io.lbry.browser.tasks.file.BulkDeleteFilesTask;
-import io.lbry.browser.tasks.file.FileListTask;
-import io.lbry.browser.tasks.localdata.FetchViewHistoryTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.ClaimListAdapter;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.listener.DownloadActionListener;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.SelectionModeListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.ViewHistory;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.PurchaseListTask;
+import com.aryan.lbrybrowser.tasks.claim.ResolveTask;
+import com.aryan.lbrybrowser.tasks.file.BulkDeleteFilesTask;
+import com.aryan.lbrybrowser.tasks.file.FileListTask;
+import com.aryan.lbrybrowser.tasks.localdata.FetchViewHistoryTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
 
 public class LibraryFragment extends BaseFragment implements
         ActionMode.Callback, DownloadActionListener, SelectionModeListener, SdkStatusListener  {

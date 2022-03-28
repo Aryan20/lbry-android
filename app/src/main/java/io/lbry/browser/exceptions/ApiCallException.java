@@ -1,4 +1,4 @@
-package io.lbry.browser.exceptions;
+package com.aryan.lbrybrowser.exceptions;
 
 public class ApiCallException extends Exception {
     public ApiCallException() {

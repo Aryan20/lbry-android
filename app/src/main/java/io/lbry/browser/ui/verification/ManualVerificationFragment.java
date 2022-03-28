@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.verification;
+package com.aryan.lbrybrowser.ui.verification;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -19,20 +19,20 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.VerificationActivity;
-import io.lbry.browser.listener.SignInListener;
-import io.lbry.browser.model.TwitterOauth;
-import io.lbry.browser.model.lbryinc.RewardVerified;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.RewardVerifiedHandler;
-import io.lbry.browser.tasks.TwitterOauthHandler;
-import io.lbry.browser.tasks.lbryinc.TwitterVerifyTask;
-import io.lbry.browser.tasks.verification.TwitterAccessTokenTask;
-import io.lbry.browser.tasks.verification.TwitterRequestTokenTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.VerificationActivity;
+import com.aryan.lbrybrowser.listener.SignInListener;
+import com.aryan.lbrybrowser.model.TwitterOauth;
+import com.aryan.lbrybrowser.model.lbryinc.RewardVerified;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.RewardVerifiedHandler;
+import com.aryan.lbrybrowser.tasks.TwitterOauthHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.TwitterVerifyTask;
+import com.aryan.lbrybrowser.tasks.verification.TwitterAccessTokenTask;
+import com.aryan.lbrybrowser.tasks.verification.TwitterRequestTokenTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import lombok.Setter;
 
 public class ManualVerificationFragment extends Fragment {

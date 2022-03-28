@@ -19,7 +19,7 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <io.lbry.browser.views.CreditsBalanceView
+            <com.aryan.lbrybrowser.views.CreditsBalanceView
                 android:id="@+id/wallet_total_balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <io.lbry.browser.views.CreditsBalanceView
+                <com.aryan.lbrybrowser.views.CreditsBalanceView
                     android:id="@+id/wallet_spendable_balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
                 android:layout_marginTop="12dp"
                 android:orientation="horizontal">
 
-                <io.lbry.browser.views.CreditsBalanceView
+                <com.aryan.lbrybrowser.views.CreditsBalanceView
                     android:id="@+id/wallet_supporting_balance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

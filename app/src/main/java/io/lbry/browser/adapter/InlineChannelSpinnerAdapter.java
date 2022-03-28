@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.Claim;
 
 public class InlineChannelSpinnerAdapter extends ArrayAdapter<Claim> {
 

@@ -1,14 +1,14 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.os.AsyncTask;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class LogPublishTask extends AsyncTask<Void, Void, Void> {
     private final Claim claimResult;

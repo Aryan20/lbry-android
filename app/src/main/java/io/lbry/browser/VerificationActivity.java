@@ -1,4 +1,4 @@
-package io.lbry.browser;
+package com.aryan.lbrybrowser;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -30,17 +30,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import io.lbry.browser.adapter.VerificationPagerAdapter;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.SignInListener;
-import io.lbry.browser.listener.WalletSyncListener;
-import io.lbry.browser.model.lbryinc.RewardVerified;
-import io.lbry.browser.model.lbryinc.User;
-import io.lbry.browser.tasks.RewardVerifiedHandler;
-import io.lbry.browser.tasks.lbryinc.FetchCurrentUserTask;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.adapter.VerificationPagerAdapter;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.SignInListener;
+import com.aryan.lbrybrowser.listener.WalletSyncListener;
+import com.aryan.lbrybrowser.model.lbryinc.RewardVerified;
+import com.aryan.lbrybrowser.model.lbryinc.User;
+import com.aryan.lbrybrowser.tasks.RewardVerifiedHandler;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchCurrentUserTask;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import io.lbry.lbrysdk.LbrynetService;
 
 public class VerificationActivity extends FragmentActivity implements SignInListener, WalletSyncListener {

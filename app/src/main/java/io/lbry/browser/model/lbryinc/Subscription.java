@@ -1,6 +1,6 @@
-package io.lbry.browser.model.lbryinc;
+package com.aryan.lbrybrowser.model.lbryinc;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 import lombok.Getter;
 import lombok.Setter;
 

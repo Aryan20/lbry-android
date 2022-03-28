@@ -1,10 +1,10 @@
-package io.lbry.browser.tasks.localdata;
+package com.aryan.lbrybrowser.tasks.localdata;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 
-import io.lbry.browser.data.DatabaseHelper;
-import io.lbry.browser.model.ViewHistory;
+import com.aryan.lbrybrowser.data.DatabaseHelper;
+import com.aryan.lbrybrowser.model.ViewHistory;
 
 public class SaveViewHistoryTask extends AsyncTask<Void, Void, Boolean> {
     private final DatabaseHelper dbHelper;

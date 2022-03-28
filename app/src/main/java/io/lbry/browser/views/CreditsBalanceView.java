@@ -1,4 +1,4 @@
-package io.lbry.browser.views;
+package com.aryan.lbrybrowser.views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import io.lbry.browser.R;
+import com.aryan.lbrybrowser.R;
 
 public class CreditsBalanceView extends TextView {
     float textFontSize;

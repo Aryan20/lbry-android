@@ -1,15 +1,15 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 import android.view.View;
 
 import java.util.List;
 
-import io.lbry.browser.exceptions.LbryRequestException;
-import io.lbry.browser.exceptions.LbryResponseException;
-import io.lbry.browser.model.UrlSuggestion;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lighthouse;
+import com.aryan.lbrybrowser.exceptions.LbryRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryResponseException;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lighthouse;
 
 public class LighthouseAutoCompleteTask extends AsyncTask<Void, Void, List<UrlSuggestion>> {
     private final String text;

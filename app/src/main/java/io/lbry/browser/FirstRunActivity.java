@@ -1,4 +1,4 @@
-package io.lbry.browser;
+package com.aryan.lbrybrowser;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,11 +23,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import io.lbry.browser.exceptions.AuthTokenInvalidatedException;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.AuthTokenInvalidatedException;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import io.lbry.lbrysdk.LbrynetService;
 import io.lbry.lbrysdk.ServiceHelper;
 import io.lbry.lbrysdk.Utils;

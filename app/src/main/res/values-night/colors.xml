@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#4A148C</color>
     <color name="colorAccent">#5E35B1</color>
 
-    <color name="pageBackground">#0F0F0F</color>
+    <color name="pageBackground">#000000 </color>
     <color name="search">#AA2D1F3D</color>
     <color name="actionBarBackground">#1C1326</color>
     <color name="statusBarColor">#000000</color>

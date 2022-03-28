@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.channel;
+package com.aryan.lbrybrowser.ui.channel;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -27,21 +27,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.ClaimListAdapter;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.SelectionModeListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.NavMenuItem;
-import io.lbry.browser.tasks.claim.AbandonChannelTask;
-import io.lbry.browser.tasks.claim.AbandonHandler;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimListTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.ClaimListAdapter;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.SelectionModeListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.NavMenuItem;
+import com.aryan.lbrybrowser.tasks.claim.AbandonChannelTask;
+import com.aryan.lbrybrowser.tasks.claim.AbandonHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
 
 public class ChannelManagerFragment extends BaseFragment implements ActionMode.Callback, SelectionModeListener, SdkStatusListener {
 

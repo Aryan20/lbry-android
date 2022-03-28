@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.verification;
+package com.aryan.lbrybrowser.tasks.verification;
 
 public class PhoneResendTask {
 }

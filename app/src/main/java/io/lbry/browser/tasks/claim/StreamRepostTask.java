@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.claim;
+package com.aryan.lbrybrowser.tasks.claim;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -14,10 +14,10 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class StreamRepostTask extends AsyncTask<Void, Void, Claim> {
     private final String name;

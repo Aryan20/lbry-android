@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.os.Build;
 
@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

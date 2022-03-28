@@ -1,6 +1,6 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.LbryUri;
 import lombok.Data;
 
 @Data

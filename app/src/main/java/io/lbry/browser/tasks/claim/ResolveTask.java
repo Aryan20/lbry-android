@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.claim;
+package com.aryan.lbrybrowser.tasks.claim;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -6,11 +6,11 @@ import android.view.View;
 import java.util.Arrays;
 import java.util.List;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class ResolveTask extends AsyncTask<Void, Void, List<Claim>> {
     private final List<String> urls;

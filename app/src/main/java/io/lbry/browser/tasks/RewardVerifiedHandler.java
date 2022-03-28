@@ -1,6 +1,6 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
-import io.lbry.browser.model.lbryinc.RewardVerified;
+import com.aryan.lbrybrowser.model.lbryinc.RewardVerified;
 
 public interface RewardVerifiedHandler {
     void onSuccess(RewardVerified rewardVerified);

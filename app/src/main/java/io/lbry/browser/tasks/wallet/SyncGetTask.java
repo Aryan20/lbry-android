@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -8,14 +8,14 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.exceptions.WalletException;
-import io.lbry.browser.model.WalletSync;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.exceptions.WalletException;
+import com.aryan.lbrybrowser.model.WalletSync;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class SyncGetTask extends AsyncTask<Void, Void, WalletSync> {
 

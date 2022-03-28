@@ -20,7 +20,7 @@
         android:orientation="horizontal"
         android:visibility="gone">
 
-        <io.lbry.browser.ui.controls.SolidIconView
+        <com.aryan.lbrybrowser.ui.controls.SolidIconView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"

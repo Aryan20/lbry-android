@@ -1,8 +1,8 @@
-package io.lbry.browser.tasks.claim;
+package com.aryan.lbrybrowser.tasks.claim;
 
 import java.util.List;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 
 public interface ClaimListResultHandler {
     void onSuccess(List<Claim> claims);

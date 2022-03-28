@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@+id/wallet_supporting_balance"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.lbry.browser.views.CreditsBalanceView
+    <com.aryan.lbrybrowser.views.CreditsBalanceView
         android:id="@+id/wallet_supporting_balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

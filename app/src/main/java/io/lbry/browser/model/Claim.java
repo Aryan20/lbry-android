@@ -1,4 +1,4 @@
-package io.lbry.browser.model;
+package com.aryan.lbrybrowser.model;
 
 import androidx.annotation.Nullable;
 
@@ -18,9 +18,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Predefined;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Predefined;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

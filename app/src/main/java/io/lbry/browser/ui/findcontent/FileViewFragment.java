@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.findcontent;
+package com.aryan.lbrybrowser.ui.findcontent;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -106,63 +106,63 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.ClaimListAdapter;
-import io.lbry.browser.adapter.CommentListAdapter;
-import io.lbry.browser.adapter.InlineChannelSpinnerAdapter;
-import io.lbry.browser.adapter.TagListAdapter;
-import io.lbry.browser.dialog.RepostClaimDialogFragment;
-import io.lbry.browser.dialog.CreateSupportDialogFragment;
-import io.lbry.browser.exceptions.LbryUriException;
-import io.lbry.browser.listener.DownloadActionListener;
-import io.lbry.browser.listener.FetchClaimsListener;
-import io.lbry.browser.listener.PIPModeListener;
-import io.lbry.browser.listener.ScreenOrientationListener;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.StoragePermissionListener;
-import io.lbry.browser.listener.WalletBalanceListener;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.ClaimCacheKey;
-import io.lbry.browser.model.Comment;
-import io.lbry.browser.model.Fee;
-import io.lbry.browser.model.LbryFile;
-import io.lbry.browser.model.NavMenuItem;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.model.UrlSuggestion;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.model.lbryinc.Subscription;
-import io.lbry.browser.tasks.BufferEventTask;
-import io.lbry.browser.tasks.CommentCreateTask;
-import io.lbry.browser.tasks.CommentListHandler;
-import io.lbry.browser.tasks.CommentListTask;
-import io.lbry.browser.tasks.GenericTaskHandler;
-import io.lbry.browser.tasks.LighthouseSearchTask;
-import io.lbry.browser.tasks.ReadTextFileTask;
-import io.lbry.browser.tasks.SetSdkSettingTask;
-import io.lbry.browser.tasks.claim.AbandonHandler;
-import io.lbry.browser.tasks.claim.AbandonStreamTask;
-import io.lbry.browser.tasks.claim.ClaimListResultHandler;
-import io.lbry.browser.tasks.claim.ClaimListTask;
-import io.lbry.browser.tasks.claim.ClaimSearchResultHandler;
-import io.lbry.browser.tasks.claim.PurchaseListTask;
-import io.lbry.browser.tasks.claim.ResolveTask;
-import io.lbry.browser.tasks.file.DeleteFileTask;
-import io.lbry.browser.tasks.file.FileListTask;
-import io.lbry.browser.tasks.file.GetFileTask;
-import io.lbry.browser.tasks.lbryinc.ChannelSubscribeTask;
-import io.lbry.browser.tasks.lbryinc.ClaimRewardTask;
-import io.lbry.browser.tasks.lbryinc.FetchStatCountTask;
-import io.lbry.browser.tasks.lbryinc.LogFileViewTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.ui.controls.SolidIconView;
-import io.lbry.browser.ui.publish.PublishFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.ClaimListAdapter;
+import com.aryan.lbrybrowser.adapter.CommentListAdapter;
+import com.aryan.lbrybrowser.adapter.InlineChannelSpinnerAdapter;
+import com.aryan.lbrybrowser.adapter.TagListAdapter;
+import com.aryan.lbrybrowser.dialog.RepostClaimDialogFragment;
+import com.aryan.lbrybrowser.dialog.CreateSupportDialogFragment;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.listener.DownloadActionListener;
+import com.aryan.lbrybrowser.listener.FetchClaimsListener;
+import com.aryan.lbrybrowser.listener.PIPModeListener;
+import com.aryan.lbrybrowser.listener.ScreenOrientationListener;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.StoragePermissionListener;
+import com.aryan.lbrybrowser.listener.WalletBalanceListener;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.ClaimCacheKey;
+import com.aryan.lbrybrowser.model.Comment;
+import com.aryan.lbrybrowser.model.Fee;
+import com.aryan.lbrybrowser.model.LbryFile;
+import com.aryan.lbrybrowser.model.NavMenuItem;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.model.lbryinc.Subscription;
+import com.aryan.lbrybrowser.tasks.BufferEventTask;
+import com.aryan.lbrybrowser.tasks.CommentCreateTask;
+import com.aryan.lbrybrowser.tasks.CommentListHandler;
+import com.aryan.lbrybrowser.tasks.CommentListTask;
+import com.aryan.lbrybrowser.tasks.GenericTaskHandler;
+import com.aryan.lbrybrowser.tasks.LighthouseSearchTask;
+import com.aryan.lbrybrowser.tasks.ReadTextFileTask;
+import com.aryan.lbrybrowser.tasks.SetSdkSettingTask;
+import com.aryan.lbrybrowser.tasks.claim.AbandonHandler;
+import com.aryan.lbrybrowser.tasks.claim.AbandonStreamTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.ClaimListTask;
+import com.aryan.lbrybrowser.tasks.claim.ClaimSearchResultHandler;
+import com.aryan.lbrybrowser.tasks.claim.PurchaseListTask;
+import com.aryan.lbrybrowser.tasks.claim.ResolveTask;
+import com.aryan.lbrybrowser.tasks.file.DeleteFileTask;
+import com.aryan.lbrybrowser.tasks.file.FileListTask;
+import com.aryan.lbrybrowser.tasks.file.GetFileTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.ChannelSubscribeTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.ClaimRewardTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.FetchStatCountTask;
+import com.aryan.lbrybrowser.tasks.lbryinc.LogFileViewTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.ui.controls.SolidIconView;
+import com.aryan.lbrybrowser.ui.publish.PublishFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import io.lbry.lbrysdk.DownloadManager;
 import io.lbry.lbrysdk.LbrynetService;
 import io.lbry.lbrysdk.Utils;
@@ -1428,7 +1428,7 @@ public class FileViewFragment extends BaseFragment implements
                 public void onSuccess() { startDownload(); }
                 @Override
                 public void onError(Exception error) {
-                    // start the download anyway. Only that it will be saved in the app private folder: /sdcard/Android/io.lbry.browser/Download
+                    // start the download anyway. Only that it will be saved in the app private folder: /sdcard/Android/com.aryan.lbrybrowser/Download
                     startDownload();
                 }
             });
@@ -1441,7 +1441,7 @@ public class FileViewFragment extends BaseFragment implements
                 public void onSuccess() { fileGet(true); }
                 @Override
                 public void onError(Exception error) {
-                    // start the file get anyway. Only that it will be saved in the app private folder: /sdcard/Android/io.lbry.browser/Download
+                    // start the file get anyway. Only that it will be saved in the app private folder: /sdcard/Android/com.aryan.lbrybrowser/Download
                     fileGet(true);
                 }
             });

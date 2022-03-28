@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.localdata;
+package com.aryan.lbrybrowser.tasks.localdata;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -17,8 +17,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.model.GalleryItem;
-import io.lbry.browser.utils.Helper;
+import com.aryan.lbrybrowser.model.GalleryItem;
+import com.aryan.lbrybrowser.utils.Helper;
 
 public class LoadGalleryItemsTask extends AsyncTask<Void, GalleryItem, List<GalleryItem>> {
     private static final String TAG = "LoadGalleryItemsTask";

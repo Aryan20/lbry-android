@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.wallet;
+package com.aryan.lbrybrowser.ui.wallet;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -16,15 +16,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.TransactionListAdapter;
-import io.lbry.browser.model.Transaction;
-import io.lbry.browser.tasks.wallet.TransactionListTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.TransactionListAdapter;
+import com.aryan.lbrybrowser.model.Transaction;
+import com.aryan.lbrybrowser.tasks.wallet.TransactionListTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
 
 public class TransactionHistoryFragment extends BaseFragment implements TransactionListAdapter.TransactionClickListener {
 

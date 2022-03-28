@@ -22,7 +22,7 @@
         android:paddingStart="8dp"
         android:paddingEnd="44dp"
         android:visibility="invisible">
-        <io.lbry.browser.ui.controls.SolidIconView
+        <com.aryan.lbrybrowser.ui.controls.SolidIconView
             android:layout_width="16dp"
             android:layout_height="16dp"
             android:textSize="10dp"

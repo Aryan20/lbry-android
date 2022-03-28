@@ -1,4 +1,4 @@
-package io.lbry.browser.adapter;
+package com.aryan.lbrybrowser.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,10 +20,10 @@ import com.google.android.material.snackbar.Snackbar;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.lbry.browser.R;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 import lombok.Getter;
 import lombok.Setter;
 

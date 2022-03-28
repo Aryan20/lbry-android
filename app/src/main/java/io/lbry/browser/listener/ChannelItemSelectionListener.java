@@ -1,6 +1,6 @@
-package io.lbry.browser.listener;
+package com.aryan.lbrybrowser.listener;
 
-import io.lbry.browser.model.Claim;
+import com.aryan.lbrybrowser.model.Claim;
 
 public interface ChannelItemSelectionListener {
     void onChannelItemSelected(Claim claim);

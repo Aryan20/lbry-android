@@ -1,12 +1,12 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 
 import org.json.JSONObject;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class WalletBalanceTask extends AsyncTask<Void, Void, WalletBalance> {
     private final WalletBalanceHandler handler;

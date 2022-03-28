@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.file;
+package com.aryan.lbrybrowser.tasks.file;
 
 import android.os.AsyncTask;
 
@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 // Just run delete on the specified claim IDs (no need for a handler)
 public class BulkDeleteFilesTask extends AsyncTask<Void, Void, Boolean> {

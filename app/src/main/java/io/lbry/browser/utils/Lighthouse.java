@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import android.net.Uri;
 
@@ -11,10 +11,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.lbry.browser.exceptions.LbryRequestException;
-import io.lbry.browser.exceptions.LbryResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.UrlSuggestion;
+import com.aryan.lbrybrowser.exceptions.LbryRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.UrlSuggestion;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

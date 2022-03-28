@@ -1,4 +1,4 @@
-package io.lbry.browser.listener;
+package com.aryan.lbrybrowser.listener;
 
 public interface CameraPermissionListener {
     void onCameraPermissionGranted();

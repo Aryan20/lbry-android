@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -12,15 +12,15 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.lbry.browser.R;
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.model.Claim;
-import io.lbry.browser.model.lbryinc.Reward;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.model.Claim;
+import com.aryan.lbrybrowser.model.lbryinc.Reward;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class ClaimRewardTask extends AsyncTask<Void, Void, String> {
 

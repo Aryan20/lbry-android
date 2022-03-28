@@ -1,4 +1,4 @@
-package io.lbry.browser.ui.wallet;
+package com.aryan.lbrybrowser.ui.wallet;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -64,26 +64,26 @@ import javax.crypto.spec.SecretKeySpec;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-import io.lbry.browser.MainActivity;
-import io.lbry.browser.R;
-import io.lbry.browser.adapter.TransactionListAdapter;
-import io.lbry.browser.adapter.WalletDetailAdapter;
-import io.lbry.browser.listener.SdkStatusListener;
-import io.lbry.browser.listener.WalletBalanceListener;
-import io.lbry.browser.model.NavMenuItem;
-import io.lbry.browser.model.Transaction;
-import io.lbry.browser.model.WalletBalance;
-import io.lbry.browser.model.WalletDetailItem;
-import io.lbry.browser.tasks.wallet.TransactionListTask;
-import io.lbry.browser.tasks.wallet.WalletAddressUnusedTask;
-import io.lbry.browser.tasks.wallet.WalletSendTask;
-import io.lbry.browser.ui.BaseFragment;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
-import io.lbry.browser.utils.LbryAnalytics;
-import io.lbry.browser.utils.LbryUri;
-import io.lbry.browser.utils.Lbryio;
-import io.lbry.browser.views.CreditsBalanceView;
+import com.aryan.lbrybrowser.MainActivity;
+import com.aryan.lbrybrowser.R;
+import com.aryan.lbrybrowser.adapter.TransactionListAdapter;
+import com.aryan.lbrybrowser.adapter.WalletDetailAdapter;
+import com.aryan.lbrybrowser.listener.SdkStatusListener;
+import com.aryan.lbrybrowser.listener.WalletBalanceListener;
+import com.aryan.lbrybrowser.model.NavMenuItem;
+import com.aryan.lbrybrowser.model.Transaction;
+import com.aryan.lbrybrowser.model.WalletBalance;
+import com.aryan.lbrybrowser.model.WalletDetailItem;
+import com.aryan.lbrybrowser.tasks.wallet.TransactionListTask;
+import com.aryan.lbrybrowser.tasks.wallet.WalletAddressUnusedTask;
+import com.aryan.lbrybrowser.tasks.wallet.WalletSendTask;
+import com.aryan.lbrybrowser.ui.BaseFragment;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
+import com.aryan.lbrybrowser.utils.LbryAnalytics;
+import com.aryan.lbrybrowser.utils.LbryUri;
+import com.aryan.lbrybrowser.utils.Lbryio;
+import com.aryan.lbrybrowser.views.CreditsBalanceView;
 
 public class WalletFragment extends BaseFragment implements SdkStatusListener, WalletBalanceListener {
 

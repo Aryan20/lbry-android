@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks;
+package com.aryan.lbrybrowser.tasks;
 
 import android.os.AsyncTask;
 
@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import io.lbry.browser.adapter.TagListAdapter;
-import io.lbry.browser.model.Tag;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.adapter.TagListAdapter;
+import com.aryan.lbrybrowser.model.Tag;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class UpdateSuggestedTagsTask extends AsyncTask<Void, Void, List<Tag>> {
 

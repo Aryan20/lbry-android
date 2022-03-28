@@ -1,11 +1,11 @@
-package io.lbry.browser.tasks.verification;
+package com.aryan.lbrybrowser.tasks.verification;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import io.lbry.browser.exceptions.AuthTokenInvalidatedException;
-import io.lbry.browser.model.lbryinc.User;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.AuthTokenInvalidatedException;
+import com.aryan.lbrybrowser.model.lbryinc.User;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class CheckUserEmailVerifiedTask extends AsyncTask<Void, Void, Boolean> {
     private final Context context;

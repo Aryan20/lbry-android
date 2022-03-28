@@ -1,6 +1,6 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
-import io.lbry.browser.model.WalletSync;
+import com.aryan.lbrybrowser.model.WalletSync;
 
 public abstract class DefaultSyncTaskHandler implements SyncTaskHandler {
     public void onSyncGetSuccess(WalletSync walletSync) {

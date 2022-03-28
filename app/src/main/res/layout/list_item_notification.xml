@@ -22,7 +22,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="16dp">
 
-            <io.lbry.browser.ui.controls.SolidIconView
+            <com.aryan.lbrybrowser.ui.controls.SolidIconView
                 android:id="@+id/notification_icon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"

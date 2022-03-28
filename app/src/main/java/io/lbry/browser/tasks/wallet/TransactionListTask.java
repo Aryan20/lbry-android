@@ -1,14 +1,14 @@
-package io.lbry.browser.tasks.wallet;
+package com.aryan.lbrybrowser.tasks.wallet;
 
 import android.os.AsyncTask;
 import android.view.View;
 
 import java.util.List;
 
-import io.lbry.browser.exceptions.ApiCallException;
-import io.lbry.browser.model.Transaction;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbry;
+import com.aryan.lbrybrowser.exceptions.ApiCallException;
+import com.aryan.lbrybrowser.model.Transaction;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbry;
 
 public class TransactionListTask extends AsyncTask<Void, Void, List<Transaction>> {
     private final int page;

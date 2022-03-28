@@ -1,4 +1,4 @@
-package io.lbry.browser.tasks.lbryinc;
+package com.aryan.lbrybrowser.tasks.lbryinc;
 
 import android.os.AsyncTask;
 import android.view.View;
@@ -6,10 +6,10 @@ import android.view.View;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import io.lbry.browser.exceptions.LbryioRequestException;
-import io.lbry.browser.exceptions.LbryioResponseException;
-import io.lbry.browser.utils.Helper;
-import io.lbry.browser.utils.Lbryio;
+import com.aryan.lbrybrowser.exceptions.LbryioRequestException;
+import com.aryan.lbrybrowser.exceptions.LbryioResponseException;
+import com.aryan.lbrybrowser.utils.Helper;
+import com.aryan.lbrybrowser.utils.Lbryio;
 
 public class FetchStatCountTask extends AsyncTask<Void, Void, Integer> {
     public static final int STAT_VIEW_COUNT = 1;

@@ -1,4 +1,4 @@
-package io.lbry.browser.utils;
+package com.aryan.lbrybrowser.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import io.lbry.browser.exceptions.LbryUriException;
+import com.aryan.lbrybrowser.exceptions.LbryUriException;
 import lombok.Data;
 
 import static org.apache.commons.codec.CharEncoding.UTF_8;
