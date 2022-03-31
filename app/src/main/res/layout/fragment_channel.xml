@@ -184,12 +184,13 @@
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_marginEnd="8dp">
+
                     <ImageView
-                        android:layout_centerInParent="true"
                         android:layout_width="22dp"
                         android:layout_height="22dp"
+                        android:layout_centerInParent="true"
                         android:src="@drawable/ic_share"
-                        app:tint="@color/foreground" />
+                        app:tint="@color/button" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:id="@+id/channel_view_tip"
@@ -198,12 +199,13 @@
                     android:layout_width="36dp"
                     android:layout_height="36dp"
                     android:layout_marginEnd="8dp">
+
                     <com.aryan.lbrybrowser.ui.controls.SolidIconView
-                        android:layout_centerInParent="true"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
+                        android:layout_centerInParent="true"
                         android:text="@string/fa_gift"
-                        android:textColor="@color/foreground"
+                        android:textColor="@color/button"
                         android:textSize="20dp" />
                 </RelativeLayout>
                 <RelativeLayout
@@ -212,6 +214,7 @@
                     android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="36dp">
+
                     <TextView
                         android:id="@+id/channel_view_text_follow"
                         android:layout_width="wrap_content"
@@ -221,28 +224,31 @@
                         android:layout_marginEnd="6dp"
                         android:fontFamily="@font/inter"
                         android:text="@string/follow"
+                        android:textAllCaps="true"
+                        android:textColor="@color/red"
                         android:textSize="12sp"
-                        android:textStyle="bold"
-                        android:textAllCaps="true" />
+                        android:textStyle="bold" />
+
                     <com.aryan.lbrybrowser.ui.controls.OutlineIconView
                         android:id="@+id/channel_view_icon_follow"
-                        android:layout_toRightOf="@id/channel_view_text_follow"
-                        android:layout_centerVertical="true"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
+                        android:layout_centerVertical="true"
                         android:layout_marginEnd="6dp"
+                        android:layout_toRightOf="@id/channel_view_text_follow"
                         android:text="@string/fa_heart"
                         android:textColor="@color/red"
                         android:textSize="20dp" />
+
                     <com.aryan.lbrybrowser.ui.controls.SolidIconView
                         android:id="@+id/channel_view_icon_unfollow"
-                        android:layout_centerInParent="true"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
+                        android:layout_centerInParent="true"
                         android:text="@string/fa_heart_broken"
-                        android:textColor="@color/foreground"
+                        android:textColor="@color/brightRed"
                         android:textSize="20dp"
-                        android:visibility="invisible"/>
+                        android:visibility="invisible" />
                 </RelativeLayout>
                 <RelativeLayout
                     android:id="@+id/channel_view_subscribe_notify"
@@ -252,14 +258,15 @@
                     android:layout_height="36dp"
                     android:layout_marginStart="8dp"
                     android:visibility="gone">
+
                     <com.aryan.lbrybrowser.ui.controls.SolidIconView
                         android:id="@+id/channel_view_icon_bell"
-                        android:layout_centerInParent="true"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
+                        android:layout_centerInParent="true"
                         android:text="@string/fa_bell_slash"
-                        android:textColor="@color/foreground"
-                        android:textSize="20dp"/>
+                        android:textColor="@color/button"
+                        android:textSize="20dp" />
                 </RelativeLayout>
             </LinearLayout>
         </RelativeLayout>

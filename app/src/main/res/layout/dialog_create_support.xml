@@ -71,7 +71,8 @@
                 android:id="@+id/create_support_input_layout_amount"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/amount">
+                android:hint="@string/amount"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/create_support_input_amount"
                     android:fontFamily="@font/inter"

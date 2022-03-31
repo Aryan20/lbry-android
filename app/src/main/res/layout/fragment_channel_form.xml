@@ -138,7 +138,8 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/title">
+                        android:hint="@string/title"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/channel_form_input_title"
                             android:layout_width="match_parent"
@@ -154,7 +155,8 @@
                         android:layout_marginTop="16dp">
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/channel_form_input_channel_name"
                                 android:layout_width="match_parent"
@@ -182,7 +184,8 @@
                             android:id="@+id/channel_form_input_layout_deposit"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:hint="@string/deposit">
+                            android:hint="@string/deposit"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/channel_form_input_deposit"
                                 android:fontFamily="@font/inter"
@@ -250,7 +253,8 @@
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="@string/description">
+                            android:hint="@string/description"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/channel_form_input_description"
                                 android:layout_width="match_parent"
@@ -266,7 +270,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:hint="@string/website">
+                            android:hint="@string/website"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/channel_form_input_website"
                                 android:layout_width="match_parent"
@@ -280,7 +285,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="16dp"
-                            android:hint="@string/email">
+                            android:hint="@string/email"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/channel_form_input_email"
                                 android:layout_width="match_parent"

@@ -224,8 +224,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/inter"
+                            android:textColor="@color/text"
                             android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textStyle="normal" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -301,7 +302,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/share"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -335,7 +336,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/support"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -370,7 +371,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/repost"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -404,7 +405,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/edit"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -446,7 +447,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/download"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -480,7 +481,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/delete"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -513,7 +514,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/unpublish"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -546,7 +547,7 @@
                             android:layout_gravity="center_horizontal"
                             android:fontFamily="@font/inter"
                             android:text="@string/report"
-                            android:textSize="12sp" />
+                            android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -659,6 +660,7 @@
                                 android:fontFamily="@font/inter"
                                 android:text="@string/follow"
                                 android:textAllCaps="true"
+                                android:textColor="@color/red"
                                 android:textSize="12sp"
                                 android:textStyle="bold" />
 
@@ -681,7 +683,7 @@
                             android:background="?attr/selectableItemBackground"
                             android:clickable="true"
                             android:text="@string/fa_heart_broken"
-                            android:textColor="@color/foreground"
+                            android:textColor="@color/brightRed"
                             android:textSize="20dp"
                             android:visibility="gone" />
 
@@ -693,7 +695,7 @@
                             android:background="?attr/selectableItemBackground"
                             android:clickable="true"
                             android:text="@string/fa_bell_slash"
-                            android:textColor="@color/foreground"
+                            android:textColor="@color/button"
                             android:textSize="20dp"
                             android:visibility="gone" />
                     </LinearLayout>

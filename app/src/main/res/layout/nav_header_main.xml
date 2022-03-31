@@ -58,8 +58,8 @@
                 android:fontFamily="@font/inter"
                 android:gravity="center"
                 android:singleLine="true"
-                android:textAllCaps="true"
-                android:textColor="@color/menuItemForeground"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
                 android:textFontWeight="300"
                 android:textSize="14sp" />
         </RelativeLayout>

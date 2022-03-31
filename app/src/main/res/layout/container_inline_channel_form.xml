@@ -9,7 +9,8 @@
     android:visibility="gone">
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inline_channel_form_input_name"
             android:layout_width="match_parent"
@@ -28,7 +29,8 @@
             android:id="@+id/inline_channel_form_layout_deposit"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:hint="@string/deposit">
+            android:hint="@string/deposit"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inline_channel_form_input_deposit"
                 android:fontFamily="@font/inter"

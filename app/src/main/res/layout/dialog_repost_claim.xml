@@ -95,7 +95,8 @@
                     android:id="@+id/repost_input_layout_amount"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:hint="@string/deposit">
+                    android:hint="@string/deposit"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/repost_input_deposit"
                         android:fontFamily="@font/inter"

@@ -37,7 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/recipient_address"
-                android:layout_toStartOf="@id/wallet_qr_scan_address">
+                android:layout_toStartOf="@id/wallet_qr_scan_address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/wallet_input_send_address"
@@ -70,7 +71,8 @@
                 android:id="@+id/wallet_input_layout_amount"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/amount">
+                android:hint="@string/amount"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/wallet_input_amount"

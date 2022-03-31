@@ -119,7 +119,9 @@
             <RelativeLayout
                 android:id="@+id/comment_form_avatar_container"
                 android:layout_width="40dp"
-                android:layout_height="40dp">
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="true">
 
                 <RelativeLayout
                     android:id="@+id/comment_form_no_thumbnail"
@@ -152,7 +154,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_toEndOf="@id/comment_form_avatar_container">
+                android:layout_toEndOf="@id/comment_form_avatar_container"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/comment_form_body"

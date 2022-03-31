@@ -5,8 +5,8 @@
     <color name="colorAccent">#5E35B1</color>
 
     <color name="pageBackground">#000000 </color>
-    <color name="search">#AA2D1F3D</color>
-    <color name="actionBarBackground">#1C1326</color>
+    <color name="search">#AA21152E</color>
+    <color name="actionBarBackground">#0B0413</color>
     <color name="statusBarColor">#000000</color>
     <color name="actionBarForeground">#CCCCCC</color>
     <color name="drawerBackground">#EE0B070F</color>
@@ -16,6 +16,9 @@
     <color name="smallIconBackground">#55000000</color>
     <color name="costBackground">#F4E866</color>
 
+    <color name="componentBack">#AA1C1C1C</color>
+
+    <color name="publishBackground">#000000</color>
     <color name="playerControlsBackground">#33000000</color>
     <color name="scrubberColor">@color/nextAryanPurple</color>
     <color name="playedColor">@color/nextAryanPurple</color>
@@ -24,7 +27,7 @@
     <!-- At some point, these colours have to be renamed -->
     <color name="darkForeground">#EEEEEE</color>
     <color name="lightForeground">#757575</color>
-    <color name="foreground">#999999</color>
+    <color name="foreground">#CFCFCF</color>
     <color name="mediaContainerBackground">#333333</color>
     <color name="borderTextArea">#5F5F5F</color>
     <color name="backgroundTextArea">#333333</color>
