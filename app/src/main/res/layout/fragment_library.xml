@@ -27,7 +27,7 @@
                 android:layout_centerVertical="true"
                 android:background="?attr/selectableItemBackground"
                 android:clickable="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/downloads"
                 android:textStyle="bold" />
 
@@ -40,7 +40,7 @@
                 android:layout_toEndOf="@id/library_filter_link_downloads"
                 android:background="?attr/selectableItemBackground"
                 android:clickable="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/purchases" />
 
             <TextView
@@ -52,7 +52,7 @@
                 android:layout_toEndOf="@id/library_filter_link_purchases"
                 android:background="?attr/selectableItemBackground"
                 android:clickable="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/history"
                 android:textSize="14sp" />
 
@@ -71,7 +71,7 @@
                 android:layout_alignParentEnd="true"
                 android:background="?attr/selectableItemBackground"
                 android:clickable="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/stats"
                 android:textColor="@color/AryanPurple"
                 android:textFontWeight="300"
@@ -105,7 +105,7 @@
                         android:id="@+id/library_storage_stat_used"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/zero"
                         android:textColor="@color/AryanPurple"
                         android:textFontWeight="300"
@@ -115,7 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="3dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/mb"
                         android:textColor="@color/AryanPurple"
                         android:textFontWeight="300"
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="4dp"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/hide"
                     android:textFontWeight="300"
                     android:textSize="12sp" />
@@ -187,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/video"
                     android:layout_marginStart="4dp"
                     android:textFontWeight="300"
@@ -200,7 +200,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/zero_mb"
                     android:textFontWeight="300"
                     android:textSize="12sp" />
@@ -223,7 +223,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/audio"
                     android:layout_marginStart="4dp"
                     android:textFontWeight="300"
@@ -236,7 +236,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/zero_mb"
                     android:textFontWeight="300"
                     android:textSize="12sp" />
@@ -259,7 +259,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/images"
                     android:layout_marginStart="4dp"
                     android:textFontWeight="300"
@@ -272,7 +272,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/zero_mb"
                     android:textFontWeight="300"
                     android:textSize="12sp" />
@@ -295,7 +295,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/other"
                     android:layout_marginStart="4dp"
                     android:textFontWeight="300"
@@ -308,7 +308,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/zero_mb"
                     android:textFontWeight="300"
                     android:textSize="12sp" />
@@ -346,7 +346,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/library_no_downloads"
                 android:textAlignment="center"
                 android:textSize="16sp"

@@ -25,7 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textColor="@color/white"
                 android:textFontWeight="300"
                 android:textSize="48sp" />
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/all"
                 android:textAllCaps="true"
                 android:textFontWeight="300" />

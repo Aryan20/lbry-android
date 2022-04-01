@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/phone_number"
             android:textColor="@color/white"
             android:textFontWeight="300"
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/enter_phone_number"
             android:textColor="@color/white"
             android:textFontWeight="300"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:background="@android:color/transparent"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:singleLine="true"
                 android:textFontWeight="300"
                 android:textSize="20sp" />
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/continue_text"
                 android:textColor="@color/text" />
 
@@ -97,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/verify_phone_number"
             android:textColor="@color/white"
             android:textFontWeight="300"
@@ -107,7 +107,7 @@
             android:id="@+id/verification_phone_verify_paragraph"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/enter_phone_verify_code"
             android:textColor="@color/white"
             android:textFontWeight="300"
@@ -119,7 +119,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:hint="@string/code_placeholder"
             android:inputType="number"
             android:letterSpacing="1.25"
@@ -138,7 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/verify" />
 
             <ProgressBar
@@ -158,7 +158,7 @@
                 android:layout_centerVertical="true"
                 android:background="?attr/selectableItemBackground"
                 android:clickable="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:gravity="right"
                 android:text="@string/edit"
                 android:textColor="@color/white"

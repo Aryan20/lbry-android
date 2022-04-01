@@ -10,7 +10,7 @@
         android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/inter"
+        android:fontFamily="@font/opensans"
         android:text="@string/content_from"
         android:textSize="12sp"
         android:textAllCaps="true"
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/past_24_hours"
             android:textSize="14sp"
             android:textFontWeight="300" />
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/past_week"
             android:textSize="14sp"
             android:textFontWeight="300" />
@@ -86,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/past_month"
             android:textSize="14sp"
             android:textFontWeight="300" />
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/past_year"
             android:textSize="14sp"
             android:textFontWeight="300" />
@@ -138,7 +138,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/all_time"
             android:textSize="14sp"
             android:textFontWeight="300" />

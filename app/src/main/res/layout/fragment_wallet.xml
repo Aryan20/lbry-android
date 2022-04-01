@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="24sp"
                 android:text="@string/account_recommended"
                 android:textColor="@color/white" />
@@ -61,7 +61,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/wallet_account_desc"
@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/wallet_without_account"
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/skip_account"
                 android:textColor="@color/white" />
 
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/sign_up"
                 app:backgroundTint="@color/button" />
         </RelativeLayout>

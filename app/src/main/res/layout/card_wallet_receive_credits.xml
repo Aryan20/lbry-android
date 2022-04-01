@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/receive_credits"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/use_this_address_hint"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -47,7 +47,7 @@
                 android:background="@drawable/bg_copyable_text"
                 android:clickable="true"
                 android:ellipsize="middle"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:letterSpacing="0.05"
                 android:paddingStart="8dp"
                 android:paddingTop="8dp"
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/get_new_address"
             android:textColor="@color/text"
             android:textSize="14sp"
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/generate_address_hint"
             android:textFontWeight="300"
             android:textSize="12sp" />

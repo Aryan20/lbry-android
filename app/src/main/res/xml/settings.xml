@@ -16,9 +16,10 @@
             app:key="com.aryan.lbrybrowser.preference.userinterface.MediaAutoplay"
             app:title="@string/enable_autoplay" />
         <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"
             app:key="com.aryan.lbrybrowser.preference.userinterface.DarkMode"
-            app:title="@string/enable_dark_mode"
-            app:iconSpaceReserved="false" />
+            app:title="@string/enable_dark_mode" />
         <SwitchPreferenceCompat
             app:key="com.aryan.lbrybrowser.preference.userinterface.ShowMatureContent"
             app:title="@string/show_mature_content"

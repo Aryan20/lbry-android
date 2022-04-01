@@ -13,7 +13,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:singleLine="true"
             android:text="@string/send_a_tip"
             android:textSize="20sp" />
@@ -28,7 +28,7 @@
             android:id="@+id/create_support_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/send_tip_info_content"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -75,7 +75,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/create_support_input_amount"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textSize="14sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="30dp"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/lbc"
                 android:textAllCaps="true"
                 android:textSize="10sp"
@@ -113,7 +113,7 @@
                     android:id="@+id/create_support_inline_balance_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textFontWeight="300"
                     android:layout_marginStart="2dp" />
             </LinearLayout>
@@ -127,7 +127,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:text="@string/make_this_a_tip"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:textFontWeight="300"
             android:textSize="14sp" />
 
@@ -141,7 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/cancel"
                 android:textFontWeight="300"
                 android:textSize="14sp" />
@@ -162,7 +162,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textColor="@color/text" />
         </RelativeLayout>
     </LinearLayout>

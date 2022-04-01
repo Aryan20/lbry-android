@@ -46,7 +46,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textFontWeight="300"
                         android:textSize="12sp"
                         android:text="@string/new_text" />
@@ -75,7 +75,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="4dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textFontWeight="300"
                         android:textSize="12sp"
                         android:text="@string/past_week" />
@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/no_claim_search_content"
             android:textSize="14sp"
             android:textFontWeight="300"

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
-        android:fontFamily="@font/inter"
+        android:fontFamily="@font/opensans"
         android:text="@string/no_added_tags"
         android:textSize="14sp"
         android:textFontWeight="300"
@@ -39,7 +39,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/mature_tags"
             android:textSize="14sp"
             android:textFontWeight="300" />
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
-        android:fontFamily="@font/inter"
+        android:fontFamily="@font/opensans"
         android:text="@string/form_no_tag_results"
         android:textSize="14sp"
         android:textFontWeight="300"
@@ -72,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/search_for_more_tags"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:textSize="14sp"
             android:textFontWeight="300" />
     </com.google.android.material.textfield.TextInputLayout>

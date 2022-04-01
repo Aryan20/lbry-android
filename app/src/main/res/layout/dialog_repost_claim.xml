@@ -13,7 +13,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:singleLine="true"
             android:text="@string/repost"
             android:textSize="20sp" />
@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/repost_your_favorite"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/channel_to_post_on"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/name"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:singleLine="true"
                 android:textColor="@color/lightGrey"
                 android:textSize="14sp"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@id/repost_name_prefix"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:singleLine="true"
                 android:textSize="14sp"
                 android:textFontWeight="300" />
@@ -99,7 +99,7 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/repost_input_deposit"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textSize="14sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="30dp"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/lbc"
                     android:textAllCaps="true"
                     android:textSize="10sp"
@@ -137,7 +137,7 @@
                         android:id="@+id/repost_inline_balance_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textFontWeight="300"
                         android:layout_marginStart="2dp" />
                 </LinearLayout>
@@ -155,7 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/cancel"
                 android:textFontWeight="300"
                 android:textSize="14sp" />
@@ -169,7 +169,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="24dp"
                 android:layout_toStartOf="@id/repost_button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="14sp"
                 android:text="@string/show_advanced" />
             <ProgressBar
@@ -188,7 +188,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/repost"
                 android:textColor="@color/text" />
         </RelativeLayout>

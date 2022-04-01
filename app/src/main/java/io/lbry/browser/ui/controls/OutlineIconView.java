@@ -24,6 +24,6 @@ public class OutlineIconView extends AppCompatTextView {
 
     private void init() {
         setGravity(Gravity.CENTER);
-        setTypeface(Typeface.createFromAsset(context.getAssets(), "font_awesome_5_free_regular.otf"));
+        setTypeface(Typeface.createFromAsset(context.getAssets(), "font_awesome_6_free_regular.otf"));
     }
 }

@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/lbry_invite_program"
                 android:textSize="24sp"
                 android:textColor="@color/white" />
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/earn_extra_credits_invites"
@@ -66,7 +66,7 @@
                 android:id="@+id/invites_account_driver_learn_more"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/invites_learn_more"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/get_started"
                 android:textColor="@color/text"
                 app:backgroundTint="@color/button" />

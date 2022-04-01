@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/loading_decentralized_data"
                 android:textSize="16sp"
                 android:textFontWeight="300" />
@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/play"
                     android:textSize="14sp"
                     android:visibility="invisible" />
@@ -103,7 +103,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginStart="1dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textColor="@android:color/black"
                         android:textFontWeight="300"
                         android:textSize="14sp" />
@@ -157,7 +157,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/unsupported_content"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -166,7 +166,7 @@
                         android:id="@+id/file_view_unsupported_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/unsupported_content_desc"
                         android:textColor="@color/white"
                         android:textFontWeight="300"
@@ -176,7 +176,7 @@
                         android:id="@+id/file_view_open_external_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/open"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -223,7 +223,7 @@
                             android:id="@+id/file_view_title"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:textColor="@color/text"
                             android:textSize="16sp"
                             android:textStyle="normal" />
@@ -239,7 +239,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="16dp"
-                                android:fontFamily="@font/inter"
+                                android:fontFamily="@font/opensans"
                                 android:textFontWeight="300"
                                 android:textSize="12sp"
                                 android:visibility="gone" />
@@ -248,7 +248,7 @@
                                 android:id="@+id/file_view_publish_time"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/inter"
+                                android:fontFamily="@font/opensans"
                                 android:textFontWeight="300"
                                 android:textSize="12sp" />
                         </LinearLayout>
@@ -300,7 +300,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/share"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -334,7 +334,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/support"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -369,7 +369,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/repost"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -403,7 +403,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/edit"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -445,7 +445,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/download"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -479,7 +479,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/delete"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -512,7 +512,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/unpublish"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -545,7 +545,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/report"
                             android:textSize="10sp" />
                     </LinearLayout>
@@ -593,7 +593,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
-                                    android:fontFamily="@font/inter"
+                                    android:fontFamily="@font/opensans"
                                     android:textAllCaps="true"
                                     android:textColor="@color/white"
                                     android:textFontWeight="300"
@@ -618,7 +618,7 @@
                                 android:id="@+id/file_view_publisher_title"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/inter"
+                                android:fontFamily="@font/opensans"
                                 android:textFontWeight="300"
                                 android:textSize="14sp"
                                 android:visibility="gone" />
@@ -627,7 +627,7 @@
                                 android:id="@+id/file_view_publisher_name"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/inter"
+                                android:fontFamily="@font/opensans"
                                 android:textColor="@color/button"
                                 android:textFontWeight="600"
                                 android:textSize="14sp" />
@@ -657,7 +657,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
                                 android:layout_marginStart="16dp"
-                                android:fontFamily="@font/inter"
+                                android:fontFamily="@font/opensans"
                                 android:text="@string/follow"
                                 android:textAllCaps="true"
                                 android:textColor="@color/red"
@@ -721,7 +721,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
                         android:autoLink="all"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textColorLink="@color/button"
                         android:textFontWeight="300"
                         android:textSize="12sp" />
@@ -740,7 +740,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="2"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/tags"
                             android:textFontWeight="600"
                             android:textSize="12sp" />
@@ -778,7 +778,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/related_content"
                             android:textSize="16sp" />
 
@@ -798,7 +798,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/no_related_content"
                         android:textFontWeight="300"
                         android:textSize="14sp"
@@ -842,7 +842,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:fontFamily="@font/inter"
+                            android:fontFamily="@font/opensans"
                             android:text="@string/comments"
                             android:textSize="16sp" />
                     </RelativeLayout>
@@ -857,7 +857,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/creator_disabled_comments"
                         android:textFontWeight="300"
                         android:textSize="14sp"
@@ -870,7 +870,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/no_comments"
                         android:textFontWeight="300"
                         android:textSize="14sp"

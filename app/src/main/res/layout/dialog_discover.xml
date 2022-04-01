@@ -10,15 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp">
+
         <TextView
             android:id="@+id/discover_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/discover_channels"
-            android:textSize="20sp"
-            android:textFontWeight="300" />
+            android:textFontWeight="300"
+            android:textSize="20sp" />
+
         <ProgressBar
             android:id="@+id/discover_loading"
             android:layout_width="20dp"
@@ -37,10 +39,12 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/discover_channel_grid"
-        android:layout_above="@id/discover_done_button"
-        android:layout_below="@id/discover_title_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_above="@id/discover_done_button"
+        android:layout_below="@id/discover_title_container">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/discover_done_button"
@@ -49,9 +53,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:fontFamily="@font/inter"
+        android:fontFamily="@font/opensans"
         android:text="@string/done"
         android:textColor="@color/text"
+        android:textSize="14sp"
         app:backgroundTint="@color/button" />
 
 </RelativeLayout>

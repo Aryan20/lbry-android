@@ -66,7 +66,7 @@ public class PhoneVerificationFragment extends Fragment {
         verifyLoading = root.findViewById(R.id.verification_phone_verify_progress);
 
         Context context = getContext();
-        countryCodePicker.setTypeFace(ResourcesCompat.getFont(context, R.font.inter_light));
+        countryCodePicker.setTypeFace(ResourcesCompat.getFont(context, R.font.opensans_light));
         countryCodePicker.registerCarrierNumberEditText(inputPhoneNumber);
 
         continueButton.setOnClickListener(new View.OnClickListener() {

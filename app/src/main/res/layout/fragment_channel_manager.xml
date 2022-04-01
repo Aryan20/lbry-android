@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textAlignment="center"
                 android:textSize="16sp"
                 android:textFontWeight="300"/>
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/create_a_channel"
                 android:textColor="@color/text" />
         </LinearLayout>

@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/comment_as"
                 android:textFontWeight="300"
                 android:textSize="14sp" />
@@ -77,7 +77,7 @@
                         android:id="@+id/comment_form_replying_to_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:text="@string/replying_to"
                         android:textColor="@color/lightGrey"
                         android:textSize="12sp" />
@@ -87,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:lineSpacingMultiplier="1.05"
                         android:textFontWeight="300"
                         android:textSize="14sp" />
@@ -136,7 +136,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textFontWeight="300"
@@ -161,7 +161,7 @@
                     android:id="@+id/comment_form_body"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:hint="@string/comment"
                     android:inputType="textMultiLine"
                     android:maxLength="2000"
@@ -178,7 +178,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="2dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:textColor="@color/lightGrey"
             android:textFontWeight="300"
             android:textSize="12sp" />
@@ -194,7 +194,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/comment_form_post"
                 android:textColor="@color/text" />
 

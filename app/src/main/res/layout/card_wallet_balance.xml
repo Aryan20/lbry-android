@@ -32,7 +32,7 @@
                 android:id="@+id/wallet_balance_usd_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textColor="@color/white"
                 android:textFontWeight="300"
                 android:textSize="16sp" />
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textColor="@color/white"
                 android:textFontWeight="300"
                 android:textSize="@dimen/wallet_detail_balance_desc_font_size" />
@@ -72,7 +72,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:gravity="bottom"
                     android:paddingStart="8dp"
                     android:text="@string/immediately_spendable"
@@ -99,7 +99,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:paddingStart="8dp"
                     android:text="@string/boosting_content"
                     android:textColor="@color/white"
@@ -138,7 +138,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="12dp"
             android:backgroundTint="@color/button"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/buy_lbc"
             android:textColor="@color/text"
             android:textSize="16sp"
@@ -151,7 +151,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="16dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/convert_credits"
             android:textColorLink="@color/text"
             android:textSize="12sp" />
@@ -162,7 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/convert_credits_bittrex"
             android:textColorLink="@color/text"
             android:textSize="16sp"
@@ -188,7 +188,7 @@
                 android:id="@+id/wallet_hint_sync_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/backup_notsynced"
                 android:textColor="@color/white"
                 android:textSize="14sp" />
@@ -198,7 +198,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/backup_what_does_this_mean"
                 android:textColor="@color/text"
                 android:textSize="12sp" />

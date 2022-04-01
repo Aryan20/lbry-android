@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/invite_by_email"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/invite_someone"
             android:textFontWeight="300"
             android:textSize="14sp" />
@@ -42,7 +42,7 @@
                 android:id="@+id/invites_email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:hint="@string/invite_email_placeholder"
                 android:textFontWeight="300"
                 android:textSize="14sp" />
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:enabled="false"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/invite" />
         </RelativeLayout>
     </LinearLayout>

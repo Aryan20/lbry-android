@@ -30,7 +30,7 @@
                     android:layout_centerVertical="true"
                     android:background="?attr/selectableItemBackground"
                     android:clickable="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/unclaimed"
                     android:textStyle="bold" />
 
@@ -43,7 +43,7 @@
                     android:layout_toEndOf="@id/rewards_filter_link_unclaimed"
                     android:background="?attr/selectableItemBackground"
                     android:clickable="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/all"
                     android:textSize="14sp" />
 
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8dp"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textSize="24sp"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -104,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/lbry_credits_allow"
@@ -115,7 +115,7 @@
                 android:id="@+id/rewards_account_driver_credits_worth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/free_credits_worth"
@@ -126,7 +126,7 @@
                 android:id="@+id/rewards_account_driver_learn_more"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:text="@string/rewards_learn_more"
@@ -145,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/not_interested"
                 android:textColor="@color/white" />
 
@@ -156,7 +156,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:backgroundTint="@color/button"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/get_started"
                 android:textColor="@color/text" />
         </RelativeLayout>

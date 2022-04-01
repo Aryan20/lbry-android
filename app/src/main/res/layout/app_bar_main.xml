@@ -34,17 +34,20 @@
                     android:id="@+id/wunderbar"
                     android:layout_width="325dp"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginEnd="13dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="12dp"
                     android:layout_toStartOf="@+id/wunderbar_notifications"
                     android:background="@drawable/bg_search"
                     android:drawableStart="@drawable/ic_search"
                     android:drawablePadding="8dp"
                     android:drawableTint="@color/actionBarForeground"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:hint="@string/uri_placeholder"
                     android:imeOptions="actionGo"
                     android:inputType="textNoSuggestions"
+                    android:minHeight="48dp"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
                     android:paddingEnd="36dp"
@@ -73,35 +76,36 @@
 
                 <RelativeLayout
                     android:id="@+id/wunderbar_notifications"
-                    android:clickable="true"
-                    android:background="?attr/selectableItemBackground"
-                    android:layout_width="48dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_alignParentEnd="true"
-                    android:layout_centerVertical="true">
+                    android:layout_centerVertical="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true">
+
                     <ImageView
                         android:id="@+id/notifications_toggle_icon"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
                         android:src="@drawable/ic_notifications"
                         app:tint="@color/actionBarForeground" />
+
                     <TextView
                         android:id="@+id/notifications_badge_count"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="12dp"
                         android:background="@drawable/bg_notification_badge"
-                        android:fontFamily="@font/inter"
+                        android:fontFamily="@font/opensans"
                         android:gravity="center_horizontal"
                         android:minWidth="12dp"
                         android:paddingStart="2dp"
                         android:paddingEnd="2dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginStart="24dp"
                         android:textColor="@color/white"
                         android:textSize="10sp"
-                        android:visibility="invisible"
-                        />
+                        android:visibility="invisible" />
                 </RelativeLayout>
             </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>
@@ -129,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/app_name"
                 android:textColor="@color/white"
                 android:textSize="56sp"
@@ -151,14 +155,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/oops_something_went_wrong"
                 android:textSize="20sp"
                 android:textColor="@color/white" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:layout_marginTop="8dp"
                 android:text="@string/startup_failed"
                 android:textColor="@color/white"

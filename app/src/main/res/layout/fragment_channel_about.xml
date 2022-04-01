@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:textAlignment="center"
             android:text="@string/no_channel_info"
             android:textFontWeight="300"
@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/website"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -56,7 +56,7 @@
                     android:id="@+id/channel_about_website"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textSize="14sp"
                     android:textFontWeight="300" />
             </LinearLayout>
@@ -70,7 +70,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:text="@string/email"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -78,7 +78,7 @@
                     android:id="@+id/channel_about_email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textSize="14sp"
                     android:textFontWeight="300" />
             </LinearLayout>
@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="14sp"
                 android:textFontWeight="300" />
 

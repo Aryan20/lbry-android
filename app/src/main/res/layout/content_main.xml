@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_gravity="center_horizontal"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textSize="16sp"
                 android:textAlignment="center" />
         </LinearLayout>
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/sdk_initializing"
                 android:textSize="14sp"
                 android:textColor="@color/white"
@@ -155,7 +155,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:maxLines="2"
                     android:textSize="12sp" />
 
@@ -165,7 +165,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:ellipsize="end"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:singleLine="true"
                     android:textSize="10sp" />
             </LinearLayout>

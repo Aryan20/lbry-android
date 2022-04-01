@@ -675,7 +675,7 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
 
     public boolean isDarkMode() {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
-        return sp.getBoolean(PREFERENCE_KEY_DARK_MODE, false);
+        return sp.getBoolean(PREFERENCE_KEY_DARK_MODE, true);
     }
 
     public boolean isBackgroundPlaybackEnabled() {
@@ -740,7 +740,7 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             SpannableString spannable = new SpannableString(getString(stringResourceId));
-            spannable.setSpan(new TypefaceSpan("inter"), 0, spannable.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            spannable.setSpan(new TypefaceSpan("opensans"), 0, spannable.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             actionBar.setTitle(spannable);
         }
     }

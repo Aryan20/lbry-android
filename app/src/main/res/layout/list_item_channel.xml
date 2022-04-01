@@ -38,7 +38,7 @@
             android:layout_marginStart="4dp"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:textColor="@color/lightForeground"
             android:textFontWeight="300"
             android:textSize="12sp" />
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="4dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/opensans"
             android:text="@string/reposted"
             android:textColor="@color/lightForeground"
             android:textFontWeight="300"
@@ -82,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textFontWeight="300"
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="2dp"
-                    android:fontFamily="@font/inter"
+                    android:fontFamily="@font/opensans"
                     android:textFontWeight="300"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -157,7 +157,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:maxLines="2"
                 android:textFontWeight="600"
                 android:textSize="14sp" />
@@ -166,7 +166,7 @@
                 android:id="@+id/claim_publisher"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textColor="@color/text"
                 android:textSize="12sp" />
 
@@ -174,7 +174,7 @@
                 android:id="@+id/claim_publish_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:textFontWeight="300"
                 android:textSize="11sp" />
 
@@ -182,7 +182,7 @@
                 android:id="@+id/claim_pending_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/inter"
+                android:fontFamily="@font/opensans"
                 android:text="@string/pending"
                 android:textFontWeight="300"
                 android:textSize="11sp"

@@ -24,6 +24,6 @@ public class SolidIconView extends AppCompatTextView {
 
     private void init() {
         setGravity(Gravity.CENTER);
-        setTypeface(Typeface.createFromAsset(context.getAssets(), "font_awesome_5_free_solid.otf"));
+        setTypeface(Typeface.createFromAsset(context.getAssets(), "font_awesome_6_free_solid.otf"));
     }
 }
