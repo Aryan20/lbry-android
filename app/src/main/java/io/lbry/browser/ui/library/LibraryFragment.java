@@ -15,13 +15,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.view.ActionMode;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -644,16 +644,16 @@ public class LibraryFragment extends BaseFragment implements
                 if (context != null) {
                     final List<Claim> selectedClaims = new ArrayList<>(contentListAdapter.getSelectedItems());
                     String message = getResources().getQuantityString(R.plurals.confirm_delete_files, selectedClaims.size());
-                    AlertDialog.Builder builder = new AlertDialog.Builder(context).
-                            setTitle(R.string.delete_selection).
-                            setMessage(message)
+                    new MaterialAlertDialogBuilder(context)
+                            .setTitle(R.string.delete_selection)
+                            .setMessage(message)
                             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     handleDeleteSelectedClaims(selectedClaims);
                                 }
-                            }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                            }).setNegativeButton(R.string.no, null)
+                    .show();
                 }
                 return true;
             }

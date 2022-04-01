@@ -14,7 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
@@ -25,6 +24,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -159,16 +159,16 @@ public class ChannelFragment extends BaseFragment implements FetchChannelsListen
             @Override
             public void onClick(View view) {
                 if (claim != null) {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext()).
-                            setTitle(R.string.delete_channel).
-                            setMessage(R.string.confirm_delete_channel)
+                    new MaterialAlertDialogBuilder(getContext())
+                            .setTitle(R.string.delete_channel)
+                            .setMessage(R.string.confirm_delete_channel)
                             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     deleteCurrentClaim();
                                 }
-                            }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                            }).setNegativeButton(R.string.no, null)
+                    .show();
                 }
             }
         });
@@ -271,16 +271,17 @@ public class ChannelFragment extends BaseFragment implements FetchChannelsListen
                     boolean isFollowing = Lbryio.isFollowing(claim);
                     if (isFollowing) {
                         Context context = getContext();
-                        AlertDialog.Builder builder = new AlertDialog.Builder(context).
-                                setTitle(R.string.confirm_unfollow).
-                                setMessage(R.string.confirm_unfollow_message)
+                        new MaterialAlertDialogBuilder(context)
+                                .setTitle(R.string.confirm_unfollow)
+                                .setMessage(R.string.confirm_unfollow_message)
                                 .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialogInterface, int i) {
                                         doFollowUnfollow(isFollowing, view);
                                     }
-                                }).setNegativeButton(R.string.no, null);
-                        builder.show();
+                                })
+                                .setNegativeButton(R.string.no, null)
+                        .show();
                     } else {
                         doFollowUnfollow(isFollowing, view);
                     }
