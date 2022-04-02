@@ -161,9 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:backgroundTint="@color/button"
-                android:fontFamily="@font/opensans"
-                android:textColor="@color/text" />
+                android:fontFamily="@font/opensans" />
         </RelativeLayout>
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

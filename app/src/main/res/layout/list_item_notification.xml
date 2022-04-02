@@ -6,14 +6,15 @@
     android:layout_marginStart="8dp"
     android:layout_marginEnd="8dp"
     android:layout_marginBottom="8dp"
-    android:background="?attr/selectableItemBackground"
     android:clickable="true"
-    app:cardCornerRadius="15dp">
+    app:cardBackgroundColor="#11ffffff"
+    app:cardCornerRadius="20dp">
 
     <LinearLayout
         android:id="@+id/notification_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_layout_bg"
         android:orientation="horizontal">
 
         <RelativeLayout
@@ -47,7 +48,7 @@
                     android:layout_height="36dp"
                     android:layout_centerInParent="true"
                     android:src="@drawable/ic_check"
-                    app:tint="@color/nextAryanPurple" />
+                    app:tint="@color/button" />
             </RelativeLayout>
         </RelativeLayout>
 

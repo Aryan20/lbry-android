@@ -193,10 +193,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:backgroundTint="@color/button"
                 android:fontFamily="@font/opensans"
-                android:text="@string/comment_form_post"
-                android:textColor="@color/text" />
+                android:text="@string/comment_form_post" />
 
             <ProgressBar
                 android:id="@+id/comment_form_post_progress"

@@ -175,7 +175,7 @@ public class NotificationListAdapter extends RecyclerView.Adapter<NotificationLi
             return ContextCompat.getColor(context, R.color.nextAryanPurple);
         }
 
-        return ContextCompat.getColor(context, R.color.AryanPurple);
+        return ContextCompat.getColor(context, R.color.button);
     }
 
     @Override

@@ -137,10 +137,8 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="12dp"
-            android:backgroundTint="@color/button"
             android:fontFamily="@font/opensans"
             android:text="@string/buy_lbc"
-            android:textColor="@color/text"
             android:textSize="16sp"
             lbry:iconTint="@color/button" />
 

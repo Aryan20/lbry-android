@@ -101,9 +101,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:backgroundTint="@color/button"
             android:fontFamily="@font/opensans"
-            android:text="@string/done"
-            android:textColor="@color/text" />
+            android:text="@string/done" />
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

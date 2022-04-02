@@ -101,8 +101,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/opensans"
-                android:text="@string/sign_up"
-                app:backgroundTint="@color/button" />
+                android:text="@string/sign_up" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

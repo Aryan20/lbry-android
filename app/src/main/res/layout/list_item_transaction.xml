@@ -46,20 +46,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="10">
+
         <TextView
             android:id="@+id/transaction_claim"
-            android:clickable="true"
-            android:background="?attr/selectableItemBackground"
-            android:layout_weight="6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
             android:ellipsize="end"
             android:fontFamily="@font/opensans"
             android:singleLine="true"
-            android:textColor="@color/AryanPurple"
-            android:textSize="14sp"
+            android:textColor="@color/button"
             android:textFontWeight="300"
-            />
+            android:textSize="14sp" />
         <TextView
             android:id="@+id/transaction_fee"
             android:gravity="end"

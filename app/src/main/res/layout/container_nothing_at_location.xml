@@ -27,6 +27,7 @@
             android:fontFamily="@font/opensans"
             android:textSize="16sp"
             android:textAlignment="center" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nothing_at_location_publish_button"
             android:layout_width="wrap_content"
@@ -34,9 +35,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/opensans"
-            android:textSize="14sp"
             android:text="@string/publish_something_here"
             android:textFontWeight="300"
+            android:textSize="14sp"
             android:visibility="gone" />
     </LinearLayout>
 </RelativeLayout>

@@ -640,9 +640,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:backgroundTint="@color/button"
                     android:fontFamily="@font/opensans"
-                    android:text="@string/publish"
                     android:textColor="@color/text" />
             </RelativeLayout>
         </LinearLayout>

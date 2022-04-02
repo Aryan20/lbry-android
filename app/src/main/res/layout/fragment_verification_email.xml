@@ -68,11 +68,8 @@
                 android:id="@+id/verification_email_continue_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/button"
                 android:fontFamily="@font/opensans"
-                android:text="@string/continue_text"
-                android:textColor="@color/text"
-                app:iconTint="@color/button" />
+                android:text="@string/continue_text" />
 
             <ProgressBar
                 android:id="@+id/verification_email_add_progress"
@@ -146,10 +143,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:backgroundTint="@color/button"
                 android:fontFamily="@font/opensans"
-                android:text="@string/resend"
-                app:iconTint="@color/button" />
+                android:text="@string/resend" />
 
             <View
                 android:layout_width="0dp"

@@ -70,7 +70,6 @@
                 android:id="@+id/verification_phone_continue_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/button"
                 android:fontFamily="@font/opensans"
                 android:text="@string/continue_text"
                 android:textColor="@color/text" />
@@ -139,7 +138,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:fontFamily="@font/opensans"
-                android:text="@string/verify" />
+                android:text="@string/verify"
+                android:textColor="@color/text" />
 
             <ProgressBar
                 android:id="@+id/verification_phone_verify_progress"

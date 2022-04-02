@@ -155,10 +155,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:backgroundTint="@color/button"
                 android:fontFamily="@font/opensans"
-                android:text="@string/get_started"
-                android:textColor="@color/text" />
+                android:text="@string/get_started" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
