@@ -14,13 +14,13 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.view.ActionMode;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -260,16 +260,16 @@ public class ChannelManagerFragment extends BaseFragment implements ActionMode.C
             if (adapter != null && adapter.getSelectedCount() > 0) {
                 final List<Claim> selectedClaims = new ArrayList<>(adapter.getSelectedItems());
                 String message = getResources().getQuantityString(R.plurals.confirm_delete_channels, selectedClaims.size());
-                AlertDialog.Builder builder = new AlertDialog.Builder(getContext()).
-                        setTitle(R.string.delete_selection).
-                        setMessage(message)
+                new MaterialAlertDialogBuilder(getContext())
+                        .setTitle(R.string.delete_selection)
+                        .setMessage(message)
                         .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 handleDeleteSelectedClaims(selectedClaims);
                             }
-                        }).setNegativeButton(R.string.no, null);
-                builder.show();
+                        }).setNegativeButton(R.string.no, null)
+                .show();
                 return true;
             }
         }

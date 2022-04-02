@@ -62,6 +62,7 @@ import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.ext.cast.CastPlayer;
@@ -79,7 +80,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.view.ActionMode;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -1997,16 +1997,16 @@ public class MainActivity extends AppCompatActivity implements SdkStatusListener
 
                 final List<LbryNotification> selectedNotifications = new ArrayList<>(notificationListAdapter.getSelectedItems());
                 String message = getResources().getQuantityString(R.plurals.confirm_delete_notifications, selectedNotifications.size());
-                AlertDialog.Builder builder = new AlertDialog.Builder(this).
-                        setTitle(R.string.delete_selection).
-                        setMessage(message)
+                new MaterialAlertDialogBuilder(this)
+                        .setTitle(R.string.delete_selection)
+                        .setMessage(message)
                         .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 handleDeleteSelectedNotifications(selectedNotifications);
                             }
-                        }).setNegativeButton(R.string.no, null);
-                builder.show();
+                        }).setNegativeButton(R.string.no, null)
+                .show();
                 return true;
             }
         }

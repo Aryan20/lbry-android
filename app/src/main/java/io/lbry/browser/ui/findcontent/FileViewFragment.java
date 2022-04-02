@@ -37,7 +37,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatSpinner;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
@@ -52,6 +51,7 @@ import androidx.webkit.WebViewFeature;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.github.chrisbanes.photoview.PhotoView;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultControlDispatcher;
 import com.google.android.exoplayer2.ParserException;
@@ -887,16 +887,16 @@ public class FileViewFragment extends BaseFragment implements
                 if (isFollowing) {
                     // show unfollow confirmation
                     Context context = getContext();
-                    AlertDialog.Builder builder = new AlertDialog.Builder(context).
-                            setTitle(R.string.confirm_unfollow).
-                            setMessage(R.string.confirm_unfollow_message)
+                    new MaterialAlertDialogBuilder(context)
+                            .setTitle(R.string.confirm_unfollow)
+                            .setMessage(R.string.confirm_unfollow_message)
                             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     doFollowUnfollow(isFollowing, view);
                                 }
-                            }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                            }).setNegativeButton(R.string.no, null)
+                    .show();
                 } else {
                     doFollowUnfollow(isFollowing, view);
                 }
@@ -1127,16 +1127,16 @@ public class FileViewFragment extends BaseFragment implements
                 }
 
                 if (claim != null) {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext()).
-                        setTitle(R.string.delete_file).
-                        setMessage(R.string.confirm_delete_file_message)
+                    new MaterialAlertDialogBuilder(getContext())
+                        .setTitle(R.string.delete_file)
+                        .setMessage(R.string.confirm_delete_file_message)
                         .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 deleteClaimFile();
                             }
-                        }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                        }).setNegativeButton(R.string.no, null)
+                    .show();
                 }
             }
         });
@@ -1150,16 +1150,16 @@ public class FileViewFragment extends BaseFragment implements
                 }
 
                 if (claim != null) {
-                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext()).
-                        setTitle(R.string.delete_content).
-                        setMessage(R.string.confirm_delete_content_message)
+                    new MaterialAlertDialogBuilder(getContext())
+                        .setTitle(R.string.delete_content)
+                        .setMessage(R.string.confirm_delete_content_message)
                         .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 deleteCurrentClaim();
                             }
-                        }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                        }).setNegativeButton(R.string.no, null)
+                    .show();
                 }
             }
         });
@@ -2004,9 +2004,9 @@ public class FileViewFragment extends BaseFragment implements
                             cost == 1 ? 1 : 2,
                             claim.getTitle(),
                             formattedCost.equals("0") ? Helper.FULL_LBC_CURRENCY_FORMAT.format(cost) : formattedCost);
-                    AlertDialog.Builder builder = new AlertDialog.Builder(context).
-                            setTitle(R.string.confirm_purchase).
-                            setMessage(message)
+                    new MaterialAlertDialogBuilder(context)
+                            .setTitle(R.string.confirm_purchase)
+                            .setMessage(message)
                             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
@@ -2025,8 +2025,8 @@ public class FileViewFragment extends BaseFragment implements
                                     }
                                     handleMainActionForClaim();
                                 }
-                            }).setNegativeButton(R.string.no, null);
-                    builder.show();
+                            }).setNegativeButton(R.string.no, null)
+                    .show();
                 } catch (IllegalStateException ex) {
                     // pass
                 }

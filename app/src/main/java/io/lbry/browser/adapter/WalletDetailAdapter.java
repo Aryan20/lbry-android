@@ -10,15 +10,14 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AlertDialog;
-
-import java.util.List;
-
 import com.aryan.lbrybrowser.MainActivity;
 import com.aryan.lbrybrowser.R;
 import com.aryan.lbrybrowser.model.WalletDetailItem;
 import com.aryan.lbrybrowser.utils.Helper;
 import com.aryan.lbrybrowser.views.CreditsBalanceView;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+
+import java.util.List;
 
 public class WalletDetailAdapter extends BaseAdapter {
     private final List<WalletDetailItem> list;
@@ -70,16 +69,16 @@ public class WalletDetailAdapter extends BaseAdapter {
                     @Override
                     public void onClick(View view) {
                         if (view.getContext() != null) {
-                            AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext()).
-                                    setTitle(R.string.unlock_tips).
-                                    setMessage(R.string.confirm_unlock_tips)
+                            new MaterialAlertDialogBuilder(view.getContext())
+                                    .setTitle(R.string.unlock_tips)
+                                    .setMessage(R.string.confirm_unlock_tips)
                                     .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialogInterface, int i) {
                                             unlockTips(view);
                                         }
-                                    }).setNegativeButton(R.string.no, null);
-                            builder.show();
+                                    }).setNegativeButton(R.string.no, null)
+                            .show();
                         }
                     }
                 });
